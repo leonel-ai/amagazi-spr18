@@ -1,0 +1,41 @@
+import React, {Component} from 'react';
+import '../styles/Main.scss';
+import logo from '../assets/logo.png';
+
+
+class Footer extends Component {
+    state = {expanded: false}
+
+    render(){
+        return (
+            <div className="main-footer-grid">
+                <div className="ft-logo">
+                    <a href="http://www.amagazi.com">
+                        <img className="ft-logo-img" src={logo} alt="footer"/>
+                    </a>
+                </div>
+
+                <div className="ft-contact">
+                    <h3>contact us</h3>
+                    <p>7155 old katy road, s255<br/>
+                       houston, tx 77024<br/>
+                       832.304.5500<br/>
+                       <a href="mailto:info@amagazi.com?subject=Hello, amagazi!">info@amagazi.com</a>
+                    </p>
+                </div>
+
+                <div className="ft-social">
+                    <h3>follow us</h3>
+                    <p>
+                        <a href="https://www.linkedin.com/company/amagazi/">linkedin</a><br/>
+                        <a href="https://www.facebook.com/amagazi">facebook</a><br/>
+                        <a href="https://www.instagram.com/amagazi/">instagram</a><br/>
+                        <a href="https://www.twitter.com/amagazicorp">twitter</a>
+                    </p>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default Footer;

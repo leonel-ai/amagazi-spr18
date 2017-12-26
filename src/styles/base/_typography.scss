@@ -1,0 +1,161 @@
+
+@font-face {
+    font-family: 'ia_writer_duospace';
+    src: url('../assets/titleFont/iawriterduospace-bold-webfont.woff2') format('woff2'),
+         url('../assets/titleFont/iawriterduospace-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ia_writer_duospace';
+    src: url('../assets/titleFont/iawriterduospace-regular-webfont.woff2') format('woff2'),
+         url('../assets/titleFont/iawriterduospace-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$font-title: ia_writer_duospace, Courier, serif; // name var to reuse
+$font-body: Stevie Sans, sans-serif;
+
+
+
+body {
+    font: 100% $font-title;
+}
+
+p {
+    font: 100% $font-body;
+    letter-spacing: 3px;
+    line-height: 26px; 
+}
+
+/* HOME */
+.hm-title {
+    font: 600% $font-title;
+}
+
+.hm-header {
+    font: 120% $font-title;
+}
+
+/* ABOUT */
+.ab-title {
+    font: 300% $font-title;
+}
+
+.ab-header {
+    font: 120% $font-title;
+}
+
+/* SERVICES */
+.srv-title {
+    font: 300% $font-title;
+}
+
+.srv-header {
+    font: 120% $font-title;
+}
+
+.srv-list {
+    font: 100% $font-body;
+    letter-spacing: 3px;
+    line-height: 26px; 
+}
+
+/* NEWS */
+.news-title {
+    font: 300% $font-title;
+}
+
+.news-header {
+    font: 120% $font-title;
+}
+
+
+/* NOT FOUND */
+.nf-title {
+    font: 300% $font-title;
+}
+
+.nf-header {
+    font: 120% $font-title;
+}
+
+
+
+/* HEADER */
+
+
+/* FOOTER */
+
+
+@media screen and (max-width: 736px) {
+
+    p {
+        font: 80% $font-body;
+        letter-spacing: 3px;
+        line-height: 26px; 
+    }
+
+    h1 {
+        font: 120% $font-title; 
+        line-height: 30px;
+    }
+
+    /* HOME */
+    .hm-title {
+        font: 200% $font-title;
+    }
+
+    .hm-header {
+        font: 100% $font-title;
+    }
+
+    /* ABOUT */
+    .ab-title {
+        font: 200% $font-title;
+    }
+    
+    .ab-header {
+        font: 100% $font-title;
+    }
+
+
+    /* SERVICES */
+    .srv-title {
+        font: 200% $font-title;
+    }
+    
+    .srv-header {
+        font: 100% $font-title;
+    }
+
+    
+    /* NEWS */
+    .news-title {
+        font: 200% $font-title;
+    }
+    
+    .news-header {
+        font: 100% $font-title;
+    }
+    
+    
+    /* NOT FOUND */
+    .nf-title {
+        font: 200% $font-title;
+    }
+    
+    .nf-header {
+        font: 100% $font-title;
+    }
+    
+    
+    /* HEADER */
+
+    /* FOOTER */
+
+}

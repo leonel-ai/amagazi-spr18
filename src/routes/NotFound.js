@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
-import AnimatedWrapper from "./AnimatedWrapper";
 import notFoundImg from '../assets/404.gif';
 
 
-class NotFoundComponent extends Component {
+class NotFound extends Component {
+    state = {expanded: false}
 
     componentWillMount() {
         this.props.history.push('*');
@@ -35,7 +35,5 @@ class NotFoundComponent extends Component {
         )
     }
 }
-
-const NotFound = AnimatedWrapper(NotFoundComponent);
 
 export default NotFound;

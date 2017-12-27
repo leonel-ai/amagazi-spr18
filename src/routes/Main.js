@@ -5,18 +5,11 @@ import {
     BrowserRouter as Router,
 } from 'react-router-dom';
 
-import TransitionGroup from "react-transition-group/TransitionGroup";
-
 import Home from './Home';
 import About from './About';
 import Services from './Services';
-import News from './News';
 import NotFound from './NotFound';
 
-const firstChild = props => {
-    const childrenArray = React.Children.toArray(props.children);
-    return childrenArray[0] || null;
-  };
 
 class Routes extends Component {
     render() {        
@@ -28,36 +21,17 @@ class Routes extends Component {
                             <Link to='/'>home</Link>
                             <Link to='/about'>about</Link>
                             <Link to='/services'>services</Link>
-                            <Link to='/news'>news</Link>
+                            <a href="http://www.medium.com">news</a>
                         </div>
 
-                    <TransitionGroup component={firstChild}>
-                
                     <Switch>
-                    <Route path="/" exact render={(props) => <Home {...props} />} />
 
-                    <Route path="/about" exact children={({match, ...rest}) => (
-                        <TransitionGroup component={firstChild}> 
-                            {match && <About {...rest} />} 
-                        </ TransitionGroup >)} />
-
-                    <Route path="/services" exact children={({match, ...rest}) => (
-                        <TransitionGroup component={firstChild}> 
-                            {match && <Services {...rest} />} 
-                        </ TransitionGroup >)} />
-
-                    <Route path="/news" exact children={({match, ...rest}) => (
-                        <TransitionGroup component={firstChild}> 
-                            {match && <News {...rest} />} 
-                        </ TransitionGroup >)} />   
-
-                    <Route path="*" exact children={({match, ...rest}) => (
-                        <TransitionGroup component={firstChild}> 
-                            {match && <NotFound {...rest} />} 
-                        </ TransitionGroup >)} />
+                    <Route exact path="/" render={(props) => <Home {...props} />} />
+                    <Route exact path="/about" render={(props) => <About {...props} />} />
+                    <Route exact path="/services" render={(props) => <Services {...props} />} />
+                    <Route exact path="/*" render={(props) => <NotFound {...props} />} />
 
                     </Switch>
-                    </TransitionGroup>
 
                 </div>
 
@@ -68,15 +42,3 @@ class Routes extends Component {
 
 
 export default Routes;
-
-
-
-// <Router>
-// <Switch>
-    // <Route path="/" exact render={(props) => <Home {...props} />} />
-//     <Route path="/about" exact render={(props) => <About {...props} />} />
-//     <Route path="/services" exact render={(props) => <Services {...props} />} />
-//     <Route path="/news" exact render={(props) => <News {...props} />} />
-//     <Route path="*" exact render={(props) => <NotFound {...props} />} />
-// </Switch>
-// </Router>

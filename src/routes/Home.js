@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 import '../styles/Main.css';
-import AnimatedWrapper from "./AnimatedWrapper";
 import homePageImg from '../assets/lobby.png';
 
 
-class HomeComponent extends Component {
-    // state = {expanded: false}
+class Home extends Component {
+    state = {expanded: false}
 
-    // componentWillMount() {
-    //     this.props.history.push('/');
-    // }
+    componentWillMount() {
+        this.props.history.push('/');
+    }
 
     render() {
         return (
@@ -24,7 +23,5 @@ class HomeComponent extends Component {
         )
     }
 }
-
-const Home = AnimatedWrapper(HomeComponent);
 
 export default Home;

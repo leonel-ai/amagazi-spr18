@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
-import AnimatedWrapper from "./AnimatedWrapper";
 import aboutPageImg from '../assets/about.png';
 
 
-class ServicesComponent extends Component {
+class Services extends Component {
     state = {expanded: false}
 
     componentWillMount() {
@@ -131,6 +130,5 @@ class ServicesComponent extends Component {
     }
 }
 
-const Services = AnimatedWrapper(ServicesComponent);
 
 export default Services;

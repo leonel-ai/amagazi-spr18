@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
-import AnimatedWrapper from "./AnimatedWrapper";
 import aboutPageImg from '../assets/about.png';
 
 
-class AboutComponent extends Component {
+class About extends Component {
     state = {expanded: false}
 
     componentWillMount() {
@@ -79,7 +78,5 @@ class AboutComponent extends Component {
         )
     }
 }
-
-const About = AnimatedWrapper(AboutComponent);
 
 export default About;

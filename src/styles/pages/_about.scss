@@ -49,9 +49,6 @@
     padding-bottom: 60px;
 }
 
-
-
-
 .item {
     padding: 0;
     width: 512px;
@@ -135,12 +132,15 @@
     display: none;
 }
 
+.ab-box3-mob {
+    display: none;
+}
 
 @media screen and (max-width: 736px) {
     .ab-grid {
         grid-template-columns: 1fr auto;
         grid-auto-rows: minmax(44px, auto);
-        grid-gap: 20px;
+        grid-gap: 12px;
     }
 
     .ab-box1-desk {
@@ -148,6 +148,10 @@
     }
 
     .ab-box2-desk {
+        display: none;
+    }
+
+    .ab-box3-desk {
         display: none;
     }
 
@@ -164,7 +168,7 @@
     }
 
     .ab-pg-img-mob {
-        max-width: 382px;
+        max-width: 400px;
     }
 
     .ab-text-mob {
@@ -175,35 +179,48 @@
     }
 
     .ab-team {
-        grid-column: 1 / 3;
+        grid-column: 1;
         align-self: end;
         padding: 0;
     }
 
     .ab-grid-team {
         display: grid;
-        grid-column: 1 / 3;
-        grid-gap: 12px;
+        grid-column-gap: 0;
+        grid-row-gap: 12px;
         grid-template-columns: 1fr;
         padding: 0;
-        padding-bottom: 10px;
+        justify-self: center;
     }
 
     .item {
-        background-color: #383563;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        max-width: 400px;
+        height: 268px;
     }
 
-    .ab-box3-desk {
-        grid-column: 1 / 3;
-        justify-items: center;
-        padding-left: 28px;
-        padding-right: 50px; 
+    .item-media h2 {
+        max-width: 400px;
     }
-        
+
+    .item-media h4 {
+        max-width: 400px;
+    }
+
+    .teamBioImg {
+        max-width: 400px;
+    }
+
+    .ab-box3-mob {
+        display: grid;
+        grid-column: 1 / 2;
+        align-self: center;
+    }
+
+    .ab-box3-mob p {
+        grid-column: 1 / 2;
+        padding-left: 30px;
+    }
+
     .ab-title {
         text-align: left;
         line-height: initial;

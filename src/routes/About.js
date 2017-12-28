@@ -65,7 +65,7 @@ class About extends Component {
                             <img src={teamBioImg} alt="chrisj" className="teamBioImg" />
                             <h2>chris johnsen</h2><h4>chief operating officer/counsel</h4>
                         </div>
-                    </div>
+                    </div> 
 
                     <div className="item">
                         <div className="item-media">
@@ -128,6 +128,14 @@ class About extends Component {
                 </div>
 
                 <div className="ab-box3-desk">
+                    <h1 className="ab-title">careers</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam.</p>
+                </div>
+
+
+                <div className="ab-box3-mob">
                     <h1 className="ab-title">careers</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua.

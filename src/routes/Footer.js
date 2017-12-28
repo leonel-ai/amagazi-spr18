@@ -11,7 +11,7 @@ class Footer extends Component {
             <div className="main-footer-grid">
                 <div className="ft-logo">
                     <a href="http://www.amagazi.com">
-                        <img className="ft-logo-img" src={logo} alt="footer"/>
+                        <img className="ft-logo-img" src={logo} alt="footer-logo"/>
                     </a>
                 </div>
 
@@ -20,7 +20,7 @@ class Footer extends Component {
                     <p>7155 old katy road, s255<br/>
                        houston, tx 77024<br/>
                        832.304.5500<br/>
-                       <a href="mailto:info@amagazi.com?subject=Hello, amagazi!">info@amagazi.com</a>
+                       <a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">hello@amagazi.com</a>
                     </p>
                 </div>
 

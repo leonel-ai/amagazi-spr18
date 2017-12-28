@@ -85,11 +85,12 @@ p {
 }
 
 
-
-/* HEADER */
-
-
-/* FOOTER */
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+   /* HOME */
+   .hm-title {
+    font: 450% $font-title;
+    }
+}
 
 
 @media screen and (max-width: 736px) {

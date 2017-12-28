@@ -9,27 +9,16 @@
     grid-auto-rows: minmax(160px, auto);
 }
 
-.ab-header {  
-    grid-column: 1 / 3;
-    align-self: center;
-    text-align: right;
-    word-spacing: 50px;
-    padding-right: 32px;
-    padding-bottom: 20px;
-}
-
 .ab-box1-desk {
     grid-column: 1;
     justify-items: center;
     padding-left: 28px;
     padding-right: 50px;
-    padding-bottom: 60px;
 }
 
 .ab-box2-desk {
     grid-column: 2;
     justify-self: right;
-    padding-bottom: 60px;
 }
 
 .ab-team {
@@ -136,11 +125,104 @@
     display: none;
 }
 
+
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+
+    .ab-grid {
+        grid-template-columns: 1fr 2fr;
+        grid-auto-rows: minmax(44px, auto);
+    }
+
+    .ab-box1-desk {
+        grid-column: 1;
+        padding-left: 28px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .ab-box1-desk .ab-title {
+        padding-left: 0;
+    }
+
+    .ab-box2-desk {
+        grid-column: 2;
+        justify-self: right;
+        padding-bottom: 10px;
+    }
+
+    .ab-box3-desk {
+        display: none;
+    }
+
+    .ab-pg-img-desk {
+        max-width: 836px;
+    }
+
+    .ab-team {
+        grid-column: 1;
+        align-self: end;
+        padding: 0;
+    }
+
+    .ab-grid-team {
+        display: grid;
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        justify-self: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .item {
+        max-width: 428px;
+        height: auto;
+    }
+
+    .item-media h2 {
+        max-width: 428px;
+    }
+
+    .item-media h4 {
+        max-width: 428px;
+    }
+
+    .teamBioImg {
+        max-width: 428px;
+    }
+
+    .ab-box3-mob {
+        display: grid;
+        grid-column: 1 / 3;
+        align-self: center;
+    }
+
+    .ab-box3-mob p {
+        grid-column: 1 / 3;
+        padding-left: 30px;
+    }
+
+    .ab-title {
+        text-align: left;
+        padding: 0;
+        padding-left: 30px;
+    }
+
+    .ab-footer {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+
+
 @media screen and (max-width: 736px) {
     .ab-grid {
         grid-template-columns: 1fr auto;
         grid-auto-rows: minmax(44px, auto);
         grid-gap: 12px;
+        padding-top: 0;
     }
 
     .ab-box1-desk {

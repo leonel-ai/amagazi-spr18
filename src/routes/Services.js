@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
 import aboutPageImg from '../assets/about.png';
-
+import logo1 from '../assets/logo-BMW.png';
+import logo2 from '../assets/logo-HR.png';
+import logo3 from '../assets/logo-REL.png';
 
 class Services extends Component {
     state = {expanded: false}
@@ -17,6 +19,7 @@ class Services extends Component {
 
                 <div className="srv-box1-desk">
                     <h1 className="srv-title">services</h1>
+                    {/* <h2>subtitle</h2> */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                         do eiusmod tempor incididunt ut lsrvore et dolore magna aliqua.<br/>
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -30,6 +33,7 @@ class Services extends Component {
 
                 <div className="srv-box1-mob">
                     <h1 className="srv-title">services</h1>
+                    {/* <h2>subtitle</h2> */}
                     <div className="srv-box2-mob">
                         <img className="srv-pg-img-mob" src={aboutPageImg} alt="services-mobile" />
                         <div className="srv-text-mob">
@@ -46,79 +50,69 @@ class Services extends Component {
 
                 <div className="srv-cases">
                     <h1 className="srv-title">experience</h1>
+                    {/* <h2>subtitle</h2> */}
                 </div>
 
                 <div className="srv-grid-cases">
-                    <div className="brand"></div>
+                    <div className="brand">
+                        <img src={logo1} />
+                    </div>
                     <div className="brand">
                         <ul className="srv-list">
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
+                            <li>BMW</li>
+                            <li>Cadbury</li>
+                            <li>Chibebe</li>
+                            <li>Direct Energy</li>
+                            <li>Exxon</li>
+                            <li>Campbell's</li>
+                            <li>Pepperidge Farm</li>
+                            <li>General Mills</li>
+                            <li>Houston Rising</li>
+                            <li>Oppenheimer Funds</li>
+                            <li>Fully Raw</li>
+                            <li>Green Seed Vegan</li>
                         </ul>
                         </div>
-                    <div className="brand"></div>
+                    <div className="brand">
+                        <img src={logo2} />
+                    </div>
                     <div className="brand">
                         <ul className="srv-list">
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
+                            <li>Kraft</li>
+                            <li>Maxwell House</li>
+                            <li>Blue Cross Blue Shield</li>
+                            <li>Gutier</li>
+                            <li>Johnsen Law</li>
+                            <li>Markowitz Law</li>
+                            <li>Louisiana Economic Development</li>
+                            <li>Miller Lite</li>
+                            <li>Mission</li>
+                            <li>NRG</li>
+                            <li>Quilted Northern</li>
+                            <li>Monster Worldwide, Inc.</li>
+                            <li>Southern Coalition of Fashion + Design</li>
                         </ul>
                     </div>
-                    <div className="brand"></div>
+                    <div className="brand">
+                        <img src={logo3} />
+                    </div>
                     <div className="brand">
                         <ul className="srv-list">
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
+                            <li>Hard Rock Casino + Resort</li>
+                            <li>Reliant Energy</li>
+                            <li>Rich's Foods</li>
+                            <li>Sonic</li>
+                            <li>Texaco</li>
+                            <li>Tyson</li>
+                            <li>VW</li>
+                            <li>Walmart</li>
+                            <li>Saint Theresa Catholic School</li>
+                            <li>Webb Gallery</li>
+                            <li>Krewe du Optic</li>
+                            <li>Old New Orleans Rum</li>
                         </ul>
                     </div>
-                    <div className="brand"></div>
-                    <div className="brand">
-                        <ul className="srv-list">
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                        </ul>
-                    </div>
-                    <div className="brand"></div>
-                    <div className="brand">
-                        <ul className="srv-list">
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                            <li>brand</li>
-                        </ul>
-                    </div>
+
                 </div>
 
                 <div className="srv-footer pg-footer">

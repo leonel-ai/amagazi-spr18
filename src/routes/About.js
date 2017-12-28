@@ -18,6 +18,7 @@ class About extends Component {
 
                 <div className="ab-box1-desk">
                     <h1 className="ab-title">about us</h1>
+                    {/* <h2>subtitle</h2> */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -34,6 +35,7 @@ class About extends Component {
 
                 <div className="ab-box1-mob">
                     <h1 className="ab-title">about us</h1>
+                    {/* <h2>subtitle</h2> */}
                     <div className="ab-box2-mob">
                         <img className="ab-pg-img-mob" src={aboutPageImg} alt="about-mobile"/>
                         <div className="ab-text-mob">
@@ -49,6 +51,7 @@ class About extends Component {
 
                 <div className="ab-team">
                     <h1 className="ab-title">the team</h1>
+                    {/* <h2>subtitle</h2> */}
                 </div>
 
                 <div className="ab-grid-team">
@@ -129,6 +132,7 @@ class About extends Component {
 
                 <div className="ab-box3-desk">
                     <h1 className="ab-title">careers</h1>
+                    {/* <h2>subtitle</h2> */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam.</p>
@@ -137,6 +141,7 @@ class About extends Component {
 
                 <div className="ab-box3-mob">
                     <h1 className="ab-title">careers</h1>
+                    {/* <h2>subtitle</h2> */}
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam.</p>

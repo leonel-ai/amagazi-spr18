@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
 import aboutPageImg from '../assets/about.png';
+import teamBioImg from '../assets/teamEx.png';
 
 
 class About extends Component {
@@ -51,16 +52,79 @@ class About extends Component {
                 </div>
 
                 <div className="ab-grid-team">
-                    <div className="item">ryan petersen</div>
-                    <div className="item">chris johnsen</div>
-                    <div className="item">miguel nogueras</div>
-                    <div className="item">tiffany hobson</div>
-                    <div className="item">chris firnkoess</div>
-                    <div className="item">shaina huntsberry</div>
-                    <div className="item">leonela guzmán</div>
-                    <div className="item">forrest mcbride</div>
-                    <div className="item">hillary hallinan</div>
-                    <div className="item">kristian valentin</div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="ryan" className="teamBioImg" />
+                            <h2>ryan petersen</h2><h4>founder/ceo</h4>
+                        </div>
+                    </div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="chrisj" className="teamBioImg" />
+                            <h2>chris johnsen</h2><h4>chief operating officer/counsel</h4>
+                        </div>
+                    </div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="miguel" className="teamBioImg" />
+                            <h2>miguel nogueras</h2><h4>creative director</h4>
+                        </div>
+                    </div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="tiffany" className="teamBioImg" />
+                            <h2>tiffany hobson</h2><h4>executive vice president</h4>
+                        </div>
+                    </div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="chrisf" className="teamBioImg" />
+                            <h2>chris firnkoess</h2><h4>art director</h4>
+                        </div>
+                    </div>
+
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="leonela" className="teamBioImg" />
+                            <h2>leonela guzmán</h2><h4>digital developer</h4>
+                        </div>
+                    </div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="shaina" className="teamBioImg" />
+                            <h2>shaina huntsberry</h2><h4>copywriter</h4>
+                        </div>
+                    </div>
+
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="forrest" className="teamBioImg" />
+                            <h2>forrest mcbride</h2><h4>videographer/photographer</h4>
+                        </div>
+                    </div>
+
+                    <div className="item">
+                        <div className="item-media">
+                            <img src={teamBioImg} alt="hillary" className="teamBioImg" />
+                            <h2>hillary hallinan</h2><h4>traffic coordinator</h4>
+                        </div>
+                    </div>
+
+                    {/* <div className="item">
+                            <div className="item-media">
+                                <img src={teamBioImg} alt="kristian" className="teamBioImg" />
+                                <h2>kristian valentin<br/>sales</div>
+                            </div>
+                    </div> */}
+                        
                 </div>
 
                 <div className="ab-box3-desk">

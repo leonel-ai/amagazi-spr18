@@ -21,14 +21,23 @@ class Services extends Component {
             <div className="srv-grid">
 
                 <div className="srv-box1-desk">
-                    <h1 className="srv-title">services</h1>
-                    {/* <h2>subtitle</h2> */}
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                        do eiusmod tempor incididunt ut lsrvore et dolore magna aliqua.<br/>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        lsrvoris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                        irure dolor in reprehenderit in voluptate velit esse cillum 
-                        dolore eu fugiat nulla pariatur.</p>
+                    <h1 className="srv-title">what we do</h1>
+                    <h2 className="subtitles">forecasters of the market</h2>
+                    <p>Passion is our priority – to make your voice loudly heard 
+                        in an overwhelming sea of other voices. 
+                        <br/><br/>
+                        We aim to unveil hidden 
+                        insights within your market and tap you’re your potential 
+                        anxiously awaiting to thrive. 
+                        <br/><br/>
+                        We know people. We know business. We know your potential. 
+                        And it is powerful. Let’s tap into it.
+                        <br/><br/>
+                        Here’s what we do best:<br/><br/>
+                        <li>BRANDING — brand messaging and campaign development<br/></li>
+                        <li>STRATEGY  — market research and business development<br/></li>
+                        <li>CONSUMER  — EXPERIENCE user design and communication<br/></li>
+                    </p>
                 </div>
                 <div className="srv-box2-desk">
                     <img className="srv-pg-img-desk" src={aboutPageImg} alt="services-desktop" />
@@ -36,7 +45,6 @@ class Services extends Component {
 
                 <div className="srv-box1-mob">
                     <h1 className="srv-title">services</h1>
-                    {/* <h2>subtitle</h2> */}
                     <div className="srv-box2-mob">
                         <img className="srv-pg-img-mob" src={aboutPageImg} alt="services-mobile" />
                         <div className="srv-text-mob">
@@ -50,10 +58,22 @@ class Services extends Component {
                     </div>
                 </div>
 
+                <div className="srv-grid-mid">
+                    <div className="srv-box3-desk">
+                        <h1 className="srv-title">our approach</h1>
+                        <h2 className="subtitles">key between mediocrity and excellence</h2>
+                        <p>We approach creativity smarter.<br/>We discover deeply in order 
+                            create profound connections and impact.<br/>We believe in constant 
+                            movement.<br/>There’s always more to explore. More to reveal. More 
+                            to achieve.<br/>We are enthusiasts of cultural influence and 
+                            practitioners of business longevity, and we’re here to achieve 
+                            something far beyond mediocrity.</p>
+                    </div>
+                </div>
+
 
                 <div className="srv-cases">
                     <h1 className="srv-title">experience</h1>
-                    {/* <h2>subtitle</h2> */}
                 </div>
 
                 <div className="srv-grid-cases">
@@ -116,7 +136,7 @@ class Services extends Component {
                         </ul>
                     </div>
 
-                </div>
+                </div> {/* end xp */}
 
                 <div className="srv-footer pg-footer">
                     <Footer />

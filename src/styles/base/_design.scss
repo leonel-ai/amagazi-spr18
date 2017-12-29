@@ -16,6 +16,11 @@ body {
     color: $primary-color;
 }
 
+ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
 .App {
     position: relative;
     display: flex;

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/Main.css';
 import homePageImg from '../assets/lobby.png';
+import homeGif from '../assets/original.gif';
 
 
 class Home extends Component {
@@ -14,10 +15,10 @@ class Home extends Component {
         return (
         <div className="hm-grid">
             <div className="hm-box1">
-                <h1 className="hm-title">amagazi<br/>reveals<br/>untapped<br/>potential</h1>
+                <h1 className="hm-title">let's<div className="agit">agitate</div>the status quo</h1>
             </div>
             <div className="hm-box2">
-                <img className="hm-pg-img" src={homePageImg} alt="homepage" />
+                <img className="hm-pg-img" src={homeGif} alt="homepage" />
             </div>
         </div>
         )

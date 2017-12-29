@@ -3,6 +3,8 @@
 .main-footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+    min-height: 300px;
+    align-content: center;
 }
 
 .ft-logo {
@@ -13,27 +15,40 @@
 }
 
 .ft-logo-img {
-    max-width: 300px;
+    max-width: 240px;
 }
 
 .ft-contact {
     grid-column: 2;
     text-align: right;
-    align-self: start;
+    align-self: center;
     justify-self: center;
 }
 
 .ft-social {
     grid-column: 3;
     text-align: right;
-    align-self: start;
+    align-self: center;
     justify-self: center;
+}
+
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+    .main-footer-grid {
+        min-height: 250px;
+    }
+
+    .ft-logo {
+        padding-left: 100px;
+    }
+
+    .ft-logo-img {
+        max-width: 220px;
+    }
 }
 
 @media screen and (max-width: 736px) {
     .main-footer-grid {
         grid-template-columns: 2fr 1fr;
-        padding-top: 18px;
         grid-row-gap: 12px;
     }
     
@@ -44,7 +59,7 @@
     }
 
     .ft-logo-img {
-        max-width: 272px;
+        max-width: 160px;
     }
 
     .ft-contact {

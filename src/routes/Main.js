@@ -18,10 +18,10 @@ class Routes extends Component {
                 <div className="App">
 
                         <div className="NavBar">
-                            <Link to='/'>home</Link>
+                            <Link to='/'><div className="agit">amagazi</div></Link>
                             <Link to='/about'>about</Link>
                             <Link to='/services'>services</Link>
-                            <a href="http://www.medium.com">news</a>
+                            <a href="https://medium.com/@amagazi">gossip</a>
                         </div>
 
                     <Switch>

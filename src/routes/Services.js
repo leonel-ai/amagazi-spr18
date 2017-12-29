@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
+
 import aboutPageImg from '../assets/about.png';
+import logo_1 from '../assets/logos_01.gif';
+
 import logo1 from '../assets/logo-BMW.png';
 import logo2 from '../assets/logo-HR.png';
 import logo3 from '../assets/logo-REL.png';
@@ -55,7 +58,7 @@ class Services extends Component {
 
                 <div className="srv-grid-cases">
                     <div className="brand">
-                        <img src={logo1} alt="logo1"/>
+                        <img src={logo_1} alt="logo1"/>
                     </div>
                     <div className="brand">
                         <ul className="srv-list">

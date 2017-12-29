@@ -28,13 +28,18 @@ body {
 
 p {
     font: 100% $font-body;
+    letter-spacing: 1px;
+    line-height: 28px; 
+}
+
+.subtitles {
+    font: 135% $font-title;
     letter-spacing: 3px;
-    line-height: 26px; 
 }
 
 /* HOME */
 .hm-title {
-    font: 600% $font-title;
+    font: 420% $font-title;
 }
 
 .hm-header {
@@ -44,6 +49,8 @@ p {
 /* ABOUT */
 .ab-title {
     font: 300% $font-title;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .ab-header {
@@ -53,6 +60,8 @@ p {
 /* SERVICES */
 .srv-title {
     font: 300% $font-title;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .srv-header {
@@ -68,6 +77,8 @@ p {
 /* NEWS */
 .news-title {
     font: 300% $font-title;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .news-header {
@@ -78,6 +89,8 @@ p {
 /* NOT FOUND */
 .nf-title {
     font: 300% $font-title;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .nf-header {
@@ -88,8 +101,19 @@ p {
 @media screen and (min-width: 736px) and (max-width: 1366px) {
    /* HOME */
    .hm-title {
-    font: 450% $font-title;
+    font: 344% $font-title;
     }
+
+    .subtitles {
+        font: 125% $font-title;
+        letter-spacing: 1.2px;
+    }
+
+    .subtitles-mob {
+        font: 125% $font-title;
+        letter-spacing: 1.2px;
+    }
+
 }
 
 
@@ -106,6 +130,11 @@ p {
         line-height: 30px;
     }
 
+    .subtitles-mob {
+        font: 110% $font-title;
+        letter-spacing: 1.2px;
+    }
+
     /* HOME */
     .hm-title {
         font: 200% $font-title;
@@ -118,6 +147,8 @@ p {
     /* ABOUT */
     .ab-title {
         font: 200% $font-title;
+        font-weight: bold;
+        letter-spacing: 3px;
     }
     
     .ab-header {
@@ -128,6 +159,8 @@ p {
     /* SERVICES */
     .srv-title {
         font: 200% $font-title;
+        font-weight: bold;
+        letter-spacing: 3px;
     }
     
     .srv-header {
@@ -138,6 +171,8 @@ p {
     /* NEWS */
     .news-title {
         font: 200% $font-title;
+        font-weight: bold;
+        letter-spacing: 3px;
     }
     
     .news-header {
@@ -148,15 +183,12 @@ p {
     /* NOT FOUND */
     .nf-title {
         font: 200% $font-title;
+        font-weight: bold;
+        letter-spacing: 3px;
     }
     
     .nf-header {
         font: 100% $font-title;
     }
     
-    
-    /* HEADER */
-
-    /* FOOTER */
-
 }

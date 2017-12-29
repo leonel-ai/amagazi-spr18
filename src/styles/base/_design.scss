@@ -65,6 +65,19 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration-line: line-through;
+}
+
+.joblink {
+    text-decoration: none;
+    color: gold;
+}
+
+.joblink:hover {
+    text-decoration-line: line-through;
+}
+
 
 @media screen and (max-width: 736px) {
     .hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid {
@@ -79,7 +92,7 @@ a {
     }
 
     .NavBar a {
-        margin-right: 38px;
+        margin-right: 30px;
         text-decoration: none;
         color: $primary-color;
     }

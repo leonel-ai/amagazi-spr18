@@ -4,6 +4,8 @@ $var: black;
 $second-color: black;
 $var2: white;
 
+$accent-color: #FFC425;
+
 html, body, #root {
     height: 100%;
     width: 100%;
@@ -51,6 +53,15 @@ ul, li {
     text-decoration-line: line-through;
     text-decoration-style: initial;
     text-decoration-color: initial;
+    color: $accent-color;
+}
+
+.accent {
+    color: $accent-color;
+}
+
+.accent:active {
+    color: $primary-color;
 }
 
 .hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid {
@@ -76,11 +87,22 @@ a:hover {
 
 .joblink {
     text-decoration: none;
-    color: gold;
+    color: $accent-color;
 }
 
 .joblink:hover {
     text-decoration-line: line-through;
+}
+
+.srv-list a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.srv-list a:hover {
+    text-decoration-line: line-through;
+    color: $accent-color;
+
 }
 
 

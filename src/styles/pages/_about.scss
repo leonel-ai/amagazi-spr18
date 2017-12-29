@@ -17,6 +17,10 @@
     padding-top: 12px;
 }
 
+.ab-box1-desk h2 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
 
 .ab-box2-desk {
     grid-column: 2;
@@ -136,11 +140,6 @@
     text-align: left;
     line-height: 5px;
     padding-bottom: 12px;
-}
-
-.ab-box1-desk h2 {
-    padding-top: 18px;
-    padding-bottom: 18px;
 }
 
 .ab-pg-img-desk {
@@ -331,7 +330,7 @@
 
     .ab-text-mob {
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 0;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -371,6 +370,7 @@
     .ab-grid-bottom {
         grid-template-columns: 1fr;
         padding-right: 28px;
+        padding-bottom: 16px;
     }
 
     .ab-box3-mob {
@@ -382,6 +382,7 @@
     .ab-box3-mob h2 {
         grid-column: 1;
         padding-left: 30px;
+        padding-right: 30px;
     }
 
     .ab-box3-mob p {

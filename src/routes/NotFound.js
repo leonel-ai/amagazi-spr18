@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Footer from './Footer';
 import '../styles/Main.scss';
-import notFoundImg from '../assets/404.gif';
+import notFoundImg from '../assets/original.gif';
 
 
 class NotFound extends Component {

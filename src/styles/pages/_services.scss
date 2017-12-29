@@ -17,6 +17,11 @@
     padding-top: 12px;
 }
 
+.srv-box1-desk h2 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 .srv-box2-desk {
     grid-column: 2;
     justify-self: right;
@@ -101,7 +106,15 @@
     max-width: 960px;
 }
 
+.srv-laptop {
+    display: none;
+}
+
 .srv-box1-mob {
+    display: none;
+}
+
+.srv-box3-laptop {
     display: none;
 }
 
@@ -117,16 +130,46 @@
     }
 
     .srv-box1-desk {
+        display: none;
+    }
+    
+    .srv-box2-desk {
+        display: none;
+    }
+
+    .srv-box3-desk {
+        display: none;
+    }
+
+    .srv-laptop {
+        display: grid;
+        grid-column: 1 / 3;
+        grid-column-gap: 30px;
+    }
+
+    .srv-box1-lap {
         grid-column: 1;
         padding-left: 28px;
         padding-right: 20px;
         padding-bottom: 10px;
+        padding-top: 12px;
+        justify-items: center;
     }
 
-    .srv-box2-desk {
+    .srv-box1-lap .srv-title {
+        padding-left: 0;
+    }
+
+    .srv-box2-lap {
         grid-column: 2;
         justify-self: right;
         padding-bottom: 10px;
+        padding-top: 12px;
+    }
+
+    .srv-box1-lap h2 {
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 
     .srv-pg-img-desk {
@@ -135,10 +178,43 @@
 
     .srv-grid-mid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-column: 1 / 3;
-        padding-top: 60px;
+        padding-top: 40px;
         padding-bottom: 60px;
+    }
+
+    .quote-div {
+        grid-column: 1 / 3;
+        justify-self: center;
+        padding-bottom: 30px;
+    }
+
+    .srv-brand-laptop {
+        display: grid;
+        grid-column: 1;
+        justify-self: end;
+        text-align: right;
+    }
+
+    .srv-brand-laptop h1 {
+        padding: 52px;
+        justify-self: right;
+    }
+
+    .srv-brand-laptop p {
+        padding-right: 60px;
+    }
+
+    .srv-box3-laptop {
+        display: grid;
+        grid-column: 2;
+        padding-left: 28px;
+    }
+
+    .srv-box3-laptop h2 {
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 
     .srv-cases {
@@ -154,11 +230,6 @@
         justify-self: center;
         padding-top: 40px;
         padding-bottom: 80px;
-    }
-
-    .srv-box3-desk h2 {
-        padding-top: 12px;
-        padding-bottom: 12px;
     }
 
     /* logos */
@@ -183,7 +254,6 @@
     .srv-grid {
         grid-template-columns: 1fr auto;
         grid-auto-rows: minmax(44px, auto);
-        grid-gap: 12px;
         padding-top: 0;
     }
 
@@ -195,6 +265,22 @@
         display: none;
     }
 
+    .srv-box3-desk {
+        display: none;
+    }
+
+    .srv-laptop {
+        display: none;
+    }
+    
+    .srv-box3-laptop {
+        display: none;
+    }
+
+    .quote-div {
+        display: none;
+    }
+
     .srv-box1-mob {
         display: grid;
         grid-column: 1 / 3;
@@ -203,26 +289,55 @@
     
     .srv-box2-mob {
         display: grid;
-        grid-column: 1 / 3;
-        justify-self: center;
+        grid-template-columns: 1fr;
+        padding-top: 18px;
     }
 
     .srv-pg-img-mob {
         max-width: 400px;
+        justify-self: center;
+    }
+
+    .srv-text-mob h2 {
+        padding-bottom: 20px;
     }
 
     .srv-text-mob {
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 0;
         padding-left: 30px;
         padding-right: 30px;
     }
-    
-    .srv-title {
-        text-align: left;
-        line-height: initial;
-        padding: 0;
+
+    .srv-grid-mid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1 / 3;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .srv-box3-mob {
+        display: grid;
+        grid-column: 1;
+        align-self: center; 
+        padding-right: 30px;
+    }
+
+    .srv-box3-mob h2 {
+        grid-column: 1;
         padding-left: 30px;
+    }
+
+    .srv-box3-mob p {
+        grid-column: 1;
+        padding-left: 30px;
+    }
+
+    .srv-cases {
+        grid-column: 1;
+        padding: 0;
+        align-self: center; 
     }
 
     .srv-grid-cases {
@@ -231,19 +346,24 @@
         grid-row-gap: 12px;
         grid-template-columns: 1fr;
         padding: 0;
+        padding-bottom: 16px;
         justify-self: center;
-    }
-
-    .srv-grid-mid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-column: 1 / 3;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     .brand:nth-child(odd) img {
         max-width: 400px;
+    }
+
+    .srv-list {
+        padding-left: 28px;
+        padding-right: 10px;
+    }
+        
+    .srv-title {
+        text-align: left;
+        line-height: initial;
+        padding: 0;
+        padding-left: 30px;
     }
 
     .srv-footer {

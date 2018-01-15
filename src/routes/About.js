@@ -57,7 +57,7 @@ render() {
 					</div>
 
 				<div className="ab-std-lead">
-					<div className="ab-std-desk">
+					<div id="our-standards" className="ab-std-desk">
 							<h1 className="ab-title">our standard</h1>
 							<h2 className="subtitles">exclusive. transparent. responsive. efficient.</h2>
 							<p>We are entrepreneurs who have blazed our own trails and have gained lots of business wisdom along the way.

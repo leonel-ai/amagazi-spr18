@@ -94,6 +94,15 @@ a:hover {
     }
 }
 
+.srv-box1-desk a, .srv-box1-mob a, .srv-box3-desk a{
+    color: $accent-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration-line: line-through;
+    }
+}
+
 .joblink {
     text-decoration: none;
     color: $accent-color;

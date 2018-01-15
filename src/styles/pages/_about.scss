@@ -61,7 +61,7 @@
 }
 
 .ab-lead-desk p {
-    padding-top: 82px;
+    padding-top: 26px;
 }
 
 .ab-team {
@@ -162,7 +162,7 @@
     grid-column: 2;
     justify-items: end;
     padding-left: 28px;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .ab-footer {
@@ -234,6 +234,10 @@
 
     .ab-std-desk, .ab-lead-desk {
         padding-top: 40px;
+    }
+
+    .ab-lead-desk p {
+        padding-top: 0px;
     }
 
     .ab-box3-desk {
@@ -309,7 +313,12 @@
     .ab-box4-mob {
         display: grid;
         grid-column: 2;
-        align-self: center;
+        align-self: start;
+    }
+
+    .ab-box4-mob h2 {
+        grid-column: 1;
+        padding-left: 30px;
     }
 
     .ab-box4-mob p {
@@ -379,7 +388,7 @@
     }
 
     .ab-lead-desk p {
-        padding-top: 20px;
+        padding-top: 2px;
     }
 
     .ab-text-mob h2 {
@@ -461,6 +470,12 @@
         grid-column: 1;
         align-self: center;
         padding-top: 20px;
+    }
+
+    .ab-box4-mob h2 {
+        grid-column: 1;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .ab-box4-mob p {

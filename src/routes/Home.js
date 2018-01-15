@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/Main.css';
-import homeGif from '../assets/glitch.gif';
-import homeMobile from '../assets/glitch_m.gif';
+import homeGif from '../assets/home-desktop.gif';
+import homeMobile from '../assets/home-mobile.gif';
 
 class Home extends Component {
     state = {expanded: false}

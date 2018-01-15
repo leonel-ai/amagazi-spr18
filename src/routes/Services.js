@@ -85,6 +85,12 @@ class Services extends Component {
 								<img src={logo1} alt="logo1"/>
 							</div>
 							<div className="brand">
+								<img src={logo2} alt="logo2" />
+							</div>
+							<div className="brand">
+								<img src={logo3} alt="logo3"/>
+							</div>
+							<div className="brand">
 								<ul className="srv-list">
 									<li><a href="https://www.bmwusa.com/">BMW</a></li>
 									<li><a href="https://www.cadbury.co.uk/">Cadbury</a></li>
@@ -99,9 +105,6 @@ class Services extends Component {
 									<li><a href="http://www.fullyraw.com/">Fully Raw</a></li>
 									<li><a href="https://www.greenseedvegan.com/">Green Seed Vegan</a></li>
 								</ul>
-							</div>
-							<div className="brand">
-								<img src={logo2} alt="logo2" />
 							</div>
 							<div className="brand">
 								<ul className="srv-list">
@@ -119,9 +122,6 @@ class Services extends Component {
 									<li><a href="https://www.monster.com/">Monster Worldwide, Inc.</a></li>
 									<li><a href="http://www.southerndesignweek.com/">SCFD</a></li>
 								</ul>
-							</div>
-							<div className="brand">
-								<img src={logo3} alt="logo3"/>
 							</div>
 							<div className="brand">
 								<ul className="srv-list">

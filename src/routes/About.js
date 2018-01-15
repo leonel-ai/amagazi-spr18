@@ -69,7 +69,8 @@ render() {
 
 					<div className="ab-lead-desk">
 							<h1 className="ab-title">leadership</h1>
-							<p>We are entrepreneurs, idea-creators, and problem-solvers. We have a solid understanding of business longevity
+							<h2 className="subtitles">motivation through confidence and trust</h2>
+							<p>We are idea-creators, entrepreneurs, and problem-solvers. We have a solid understanding of business longevity
 							because we’ve been responsible for our own businesses. We are well-seasoned in our craft and each of us shares
 							an entrepreneurial spirit. And in case you’re wondering,
 							<a href="#"> we’ve picked up some awards along the way too.</a>
@@ -176,12 +177,14 @@ render() {
 
 							<div className="ab-box4-desk">
 									<h1 className="ab-title">careers</h1>
+									<h2 className="subtitles">where teamwork<br/>meets amazing</h2>
 									<p>Think you can match our hustle?<br/><br/>Connect with us at <a className="joblink" href="mailto:hello@amagazi.com?subject=Hello, amagazi careers!">hello@amagazi.com</a></p>
 							</div>
 
 
 							<div className="ab-box4-mob">
 									<h1 className="ab-title">careers</h1>
+									<h2 className="subtitles">where teamwork meets amazing</h2>
 									<p>Think you can match our hustle?<br/>Connect with us at <a className="joblink" href="mailto:hello@amagazi.com?subject=Hello, amagazi careers!">hello@amagazi.com</a></p>
 							</div>
 					</div>

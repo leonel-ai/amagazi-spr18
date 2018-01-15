@@ -28,6 +28,42 @@
     padding-top: 12px;
 }
 
+.ab-std-lead {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ab-std-desk {
+    grid-column: 1;
+    justify-items: center;
+    padding-left: 28px;
+    padding-right: 20px;
+    padding-top: 120px;
+}
+
+.ab-std-desk h2 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.ab-lead-desk {
+    grid-column: 2;
+    justify-items: center;
+    padding-left: 28px;
+    padding-right: 20px;
+    padding-top: 120px;
+}
+
+.ab-lead-desk h2 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.ab-lead-desk p {
+    padding-top: 82px;
+}
+
 .ab-team {
     grid-column: 1 / 3;
     padding-left: 28px;
@@ -84,7 +120,7 @@
     color:#FFFFFF;
     text-transform:lowercase;
     display:none;
-    overflow: hidden; 
+    overflow: hidden;
     font-family: Stevie Sans;
     letter-spacing: 3px;
 }
@@ -126,7 +162,7 @@
     grid-column: 2;
     justify-items: end;
     padding-left: 28px;
-    padding-right: 50px; 
+    padding-right: 50px;
 }
 
 .ab-footer {
@@ -188,6 +224,14 @@
         padding-bottom: 10px;
     }
 
+    .ab-std-desk .ab-title {
+        padding-left: 0;
+    }
+
+    .ab-lead-desk .ab-title {
+        padding-left: 0;
+    }
+
     .ab-box3-desk {
         display: none;
     }
@@ -245,7 +289,7 @@
     .ab-box3-mob {
         display: grid;
         grid-column: 1;
-        align-self: center; 
+        align-self: center;
     }
 
     .ab-box3-mob h2 {
@@ -312,11 +356,27 @@
         grid-column: 1 / 3;
         align-self: center;
     }
-    
+
     .ab-box2-mob {
         display: grid;
         grid-template-columns: 1fr;
         padding-top: 18px;
+    }
+
+    .ab-std-lead {
+        display: initial;
+    }
+
+    .ab-std-desk {
+        padding-top: 0px;
+    }
+
+    .ab-lead-desk {
+        padding-top: 20px;
+    }
+
+    .ab-lead-desk p {
+        padding-top: 20px;
     }
 
     .ab-text-mob h2 {
@@ -376,7 +436,7 @@
     .ab-box3-mob {
         display: grid;
         grid-column: 1;
-        align-self: center; 
+        align-self: center;
     }
 
     .ab-box3-mob h2 {
@@ -401,9 +461,13 @@
         padding-left: 30px;
     }
 
+    .ab-std-desk .ab-title, .ab-lead-desk .ab-title {
+        padding-left: 0;
+    }
+
     .ab-title {
         text-align: left;
-        line-height: initial;
+        line-height: 20px;
         padding: 0;
         padding-left: 30px;
     }

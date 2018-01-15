@@ -85,6 +85,15 @@ a:hover {
     text-decoration-line: line-through;
 }
 
+.ab-box1-desk a, .ab-box1-mob a, .ab-lead-desk a{
+    color: $accent-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration-line: line-through;
+    }
+}
+
 .joblink {
     text-decoration: none;
     color: $accent-color;
@@ -112,7 +121,7 @@ a:hover {
         padding-bottom: 0;
         padding-left: 0;
         padding-right: 0;
-    }  
+    }
 
     .NavBar {
         position: relative;

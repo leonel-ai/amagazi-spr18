@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/Main.css';
 import homeGif from '../assets/glitch.gif';
-
+import homeMobile from '../assets/glitch_m.gif';
 
 class Home extends Component {
     state = {expanded: false}
@@ -15,6 +15,10 @@ class Home extends Component {
         <div className="hm-grid">
             <div className="hm-box1">
                 <img className="hm-pg-img" src={homeGif} alt="homepage" />
+            </div>
+
+            <div className="hm-box1-mob">
+                <img className="hm-pg-img" src={homeMobile} alt="homepage" />
             </div>
         </div>
         )

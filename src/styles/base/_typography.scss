@@ -57,6 +57,10 @@ p {
     font: 120% $font-title;
 }
 
+.bio, .bio0, .bio1, .bio2, .bio3, .bio4 {
+    line-height: 24px;
+}
+
 /* SERVICES */
 .srv-title {
     font: 300% $font-title;
@@ -155,6 +159,11 @@ p {
     }
 
     .ab-std-lead .subtitles {
+        font: 110% $font-title;
+        letter-spacing: 1.2px;
+    }
+
+    .ab-team .subtitles {
         font: 110% $font-title;
         letter-spacing: 1.2px;
     }

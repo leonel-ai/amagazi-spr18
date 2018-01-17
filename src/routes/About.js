@@ -74,14 +74,14 @@ render() {
 							because we’ve been responsible for our own businesses. We are well-seasoned in our craft and each of us shares
 							an entrepreneurial spirit. And in case you’re wondering,
 							<a href="#"> we’ve picked up some awards along the way too.</a>
-									<br/><br/>
-							Meet the people holding our standards high.</p>
+						</p>
 					</div>
 				</div>
 
 
 					<div className="ab-team">
 							<h1 className="ab-title">the team</h1>
+							<h2 className="subtitles">meet the people holding our standards high</h2>
 					</div>
 
 					<div className="ab-grid-team">
@@ -89,49 +89,83 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={ryan} alt="ryan" className="teamBioImg" />
-											<h2 className="subtitles">ryan petersen</h2><h4>ceo/founder</h4>
+											<h4 className="bio">Ryan brings new ideas and ambitious thoughts to life. He is our never-ending source of inspiration
+												and gets the job done. He understands how to run a successful business and brings a wide range of
+												business acumen to the table. He has a true sense of the global market which allows him to skillfully
+												connect the dots.</h4>
+
+											<h2 className="subtitles">ryan petersen</h2><h4 className="jobTitle">ceo / founder</h4>
 									</div>
 							</div>
 
 							<div className="item">
 									<div className="item-media">
 											<img src={chrisj} alt="chrisj" className="teamBioImg" />
-											<h2 className="subtitles">chris johnsen</h2><h4>coo/gc</h4>
+											<h4 className="bio1">Chris’s dual approach to solving the toughest business problems is unrivaled. You can count on
+											him to challenge all angles of any obstacle he comes across. His bold approach to problem-solving is one that our
+											clients appreciate. And his thought-driven leadership is one that our team aspires to model each day.</h4>
+
+											<h2 className="subtitles">chris johnsen</h2><h4 className="jobTitle">coo / gc</h4>
 									</div>
 							</div>
 
 							<div className="item">
 									<div className="item-media">
 											<img src={miguel} alt="miguel" className="teamBioImg" />
-											<h2 className="subtitles">miguel nogueras</h2><h4>executive creative director</h4>
+											<h4 className="bio1">Miguel has helped shape the ad industry for more than 25 years.
+											He’s seen it all. He keeps our team strategic and forward-thinking and is steadfast
+											in his pursuit of excellence and innovation through communication. Miguel never
+											fails to capture the human connection with his unique storytelling approach.</h4>
+
+											<h2 className="subtitles">miguel nogueras</h2><h4 className="jobTitle">executive creative director</h4>
 									</div>
 							</div>
 
 							<div className="item">
 									<div className="item-media">
 											<img src={tiffany} alt="tiffany" className="teamBioImg" />
-											<h2 className="subtitles">tiffany hobson</h2><h4>executive vice president</h4>
+											<h4 className="bio0">Tiffany is a seasoned international player in the business and advertising
+											world. She knows how to simplify and take on complex business problems while turning them
+											into pure gold. She has developed proven business performance strategies throughout her
+											career and has an intrinsic flexibility with all things tech.
+											</h4>
+
+											<h2 className="subtitles">tiffany hobson</h2><h4 className="jobTitle">executive vice president</h4>
 									</div>
 							</div>
 
 							<div className="item">
 									<div className="item-media">
 											<img src={shaina} alt="shaina" className="teamBioImg" />
-											<h2 className="subtitles">shaina huntsberry</h2><h4>senior copywriter</h4>
+											<h4 className="bio2">Shaina writes stories you want to share and headlines you want to embody.
+											She empowers brands with profound narratives that inspire the masses to action. She speaks every
+											language of the brands we work with and uses that language to activate success.
+											</h4>
+
+											<h2 className="subtitles">shaina huntsberry</h2><h4 className="jobTitle">senior copywriter</h4>
 									</div>
 							</div>
 
 							<div className="item">
 									<div className="item-media">
 											<img src={hillary} alt="hillary" className="teamBioImg" />
-											<h2 className="subtitles">hillary hallinan</h2><h4>project manager</h4>
+											<h4 className="bio4">Hillary brings to the team an impressive background in fashion and retail management.
+											She’s a master at delivering big projects for big clients and has a meticulous eye for detail. Her innate
+											ability to see the big picture is proven everyday through her multigenerational approach to marketing.
+											</h4>
+
+											<h2 className="subtitles">hillary hallinan</h2><h4 className="jobTitle">project manager</h4>
 									</div>
 							</div>
 
 							<div className="item">
 									<div className="item-media">
 											<img src={chrisf} alt="chrisf" className="teamBioImg" />
-											<h2 className="subtitles">chris firnkoess</h2><h4>art director</h4>
+											<h4 className="bio2">Chris turns beautiful art into strategic design. His years in the marketing industry have groomed
+											him into one of the most talented creatives in advertising. His fresh perspective on design makes him an invaluable
+											asset to our team, and to our clients.</h4>
+
+											<h2 className="subtitles">chris firnkoess</h2><h4 className="jobTitle">art director</h4>
 									</div>
 							</div>
 
@@ -139,7 +173,11 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={leonela} alt="leonela" className="teamBioImg" />
-											<h2 className="subtitles">leonela guzmán</h2><h4>full stack developer</h4>
+											<h4 className="bio4">Leonela is a scientist and artist of the next-generation digital experience. She always stays
+											ahead of the latest technology and knows how to create a truly captivating user journey. Her approach to digital
+											communication always leads us toward the best path to innovation and creativity. </h4>
+
+											<h2 className="subtitles">leonela guzmán</h2><h4 className="jobTitle">full stack developer</h4>
 									</div>
 							</div>
 
@@ -147,7 +185,11 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={forrest} alt="forrest" className="teamBioImg" />
-											<h2 className="subtitles">forrest mcbride</h2><h4>producer</h4>
+											<h4 className="bio3">Forrest is a video production genius. He has worked on major movies and television series
+											and knows how to articulate narratives through stunning visuals. His work will transport you into an awe-inspiring
+											visual experience</h4>
+
+											<h2 className="subtitles">forrest mcbride</h2><h4 className="jobTitle">producer</h4>
 									</div>
 							</div>
 

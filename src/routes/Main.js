@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { 
-    Switch, 
-    Route, Link, 
+import {
+    Switch,
+    Route, NavLink,
     BrowserRouter as Router,
 } from 'react-router-dom';
 
@@ -12,16 +12,16 @@ import NotFound from './NotFound';
 
 
 class Routes extends Component {
-    render() {        
+    render() {
         return (
              <Router>
                 <div className="App">
 
                         <div className="NavBar">
-                            <Link to='/'><div className="accent">amagazi</div></Link>
-                            <Link to='/about'>about</Link>
-                            <Link to='/services'>services</Link>
-                            <a href="https://medium.com/@amagazi">gossip</a>
+                            <NavLink activeStyle={{ color: '#FFC425' }} exact to='/'>amagazi</NavLink>
+                            <NavLink activeStyle={{ color: '#FFC425' }} to='/about'>about</NavLink>
+                            <NavLink activeStyle={{ color: '#FFC425' }}to='/services'>services</NavLink>
+                            <a href="https://medium.com/@amagazi" rel="noopener noreferrer" target="_blank">gossip</a>
                         </div>
 
                     <Switch>

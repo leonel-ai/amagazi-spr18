@@ -27,10 +27,10 @@ class Footer extends Component {
                 <div className="ft-social">
                     <h3>follow us</h3>
                     <p>
-                        <a href="https://www.linkedin.com/company/amagazi/">linkedin</a><br/>
-                        <a href="https://www.facebook.com/amagazi">facebook</a><br/>
-                        <a href="https://www.instagram.com/amagazi/">instagram</a><br/>
-                        <a href="https://www.twitter.com/amagazicorp">twitter</a>
+                        <a href="https://www.linkedin.com/company/amagazi/" rel="noopener noreferrer" target="_blank">linkedin</a><br/>
+                        <a href="https://www.facebook.com/amagazi" rel="noopener noreferrer" target="_blank">facebook</a><br/>
+                        <a href="https://www.instagram.com/amagazi/" rel="noopener noreferrer" target="_blank">instagram</a><br/>
+                        <a href="https://www.medium.com/@amagazi" rel="noopener noreferrer" target="_blank">blog</a>
                     </p>
                 </div>
             </div>

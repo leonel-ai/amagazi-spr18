@@ -3,8 +3,6 @@ import Footer from './Footer';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Main.scss';
 
-import servPageImg from '../assets/services.png';
-import servMobile from '../assets/services_m.png';
 import logo1 from '../assets/logos_01.gif';
 import logo2 from '../assets/logos_02.gif';
 import logo3 from '../assets/logos_03.gif';
@@ -30,13 +28,13 @@ class Services extends Component {
 					</p>
 				</div>
 				<div className="srv-box2-desk">
-						<img className="srv-pg-img-desk" src={servPageImg} alt="services-laptop" />
+						<iframe width="960" height="600" src="https://youtube.com/embed/kyuVkudbjBw" className="show-deck" title="show-deck"></iframe>
 				</div>
 
 					<div className="srv-box1-mob">
 						<h1 className="srv-title">how we think</h1>
 						<div className="srv-box2-mob">
-							<img className="srv-pg-img-mob" src={servMobile} alt="services-mobile" />
+							<iframe width="400" height="300" src="https://youtube.com/embed/kyuVkudbjBw" title="show-deck"></iframe>
 							<div className="srv-text-mob">
 							<h2 className="subtitles-mob">our approach to success</h2>
 							<p>We speak human in all we create and only produce work that invokes curiosity. We inspire the masses to take
@@ -92,51 +90,51 @@ class Services extends Component {
 							</div>
 							<div className="brand">
 								<ul className="srv-list">
-									<li><a href="https://www.bmwusa.com/">BMW</a></li>
-									<li><a href="https://www.cadbury.co.uk/">Cadbury</a></li>
-									<li><a href="https://chibebe.com/">Chibebe</a></li>
-									<li><a href="https://www.directenergy.com/">Direct Energy</a></li>
-									<li><a href="http://corporate.exxonmobil.com/">Exxon</a></li>
-									<li><a href="https://www.campbells.com/">Campbell's</a></li>
-									<li><a href="https://www.pepperidgefarm.com/">Pepperidge Farm</a></li>
-									<li><a href="https://www.generalmills.com/">General Mills</a></li>
-									<li><a href="http://htxrising.org/">Houston Rising</a></li>
-									<li><a href="https://www.oppenheimerfunds.com/">OppenheimerFunds</a></li>
-									<li><a href="http://www.fullyraw.com/">Fully Raw</a></li>
-									<li><a href="https://www.greenseedvegan.com/">Green Seed Vegan</a></li>
+									<li>BMW</li>
+									<li>Cadbury</li>
+									<li>Chibebe</li>
+									<li>Direct Energy</li>
+									<li>Exxon</li>
+									<li>Campbell's</li>
+									<li>Pepperidge Farm</li>
+									<li>General Mill</li>
+									<li>Houston Rising</li>
+									<li>OppenheimerFunds</li>
+									<li>Fully Raw</li>
+									<li>Green Seed Vegan</li>
 								</ul>
 							</div>
 							<div className="brand">
 								<ul className="srv-list">
-									<li><a href="http://www.kraftrecipes.com/">Kraft</a></li>
-									<li><a href="http://www.kraftrecipes.com/maxwell-house.aspx">Maxwell House</a></li>
-									<li><a href="https://www.bcbs.com/">Blue Cross Blue Shield</a></li>
-									<li><a href="http://www.gutierroofing.com/">Gutier</a></li>
-									<li><a href="https://www.johnsenlaw.net/">Johnsen Law</a></li>
-									<li><a href="http://thetrafficticketman.com/">Markowitz Law</a></li>
-									<li><a href="https://www.opportunitylouisiana.com/">Louisiana Economic Development</a></li>
-									<li><a href="https://www.millerlite.com/">Miller Lite</a></li>
-									<li><a href="http://www.missionmenus.com/">Mission</a></li>
-									<li><a href="http://www.nrg.com/">NRG</a></li>
-									<li><a href="https://www.quiltednorthern.com/">Quilted Northern</a></li>
-									<li><a href="https://www.monster.com/">Monster Worldwide, Inc.</a></li>
-									<li><a href="http://www.southerndesignweek.com/">SCFD</a></li>
+									<li>Kraft</li>
+									<li>Maxwell House</li>
+									<li>Blue Cross Blue Shield</li>
+									<li>Gutier</li>
+									<li>Johnsen Law</li>
+									<li>Markowitz Law</li>
+									<li>Louisiana Economic Development</li>
+									<li>Miller Lite</li>
+									<li>Mission</li>
+									<li>NRG</li>
+									<li>Quilted Northern</li>
+									<li>Monster Worldwide, Inc.</li>
+									<li>SCFD</li>
 								</ul>
 							</div>
 							<div className="brand">
 								<ul className="srv-list">
-									<li><a href="https://hardrockhotel.com/">Hard Rock Casino + Resort</a></li>
-									<li><a href="https://www.reliant.com/">Reliant Energy</a></li>
-									<li><a href="https://www.richs.com/">Rich's Foods</a></li>
-									<li><a href="https://www.sonicdrivein.com/">Sonic</a></li>
-									<li><a href="http://www.texaco.com/">Texaco</a></li>
-									<li><a href="http://www.tyson.com/">Tyson</a></li>
-									<li><a href="http://www.vw.com/">VW</a></li>
-									<li><a href="https://www.walmart.com/">Walmart</a></li>
-									<li><a href="https://sttheresacatholicschool.org/">Saint Theresa Catholic School</a></li>
-									<li><a href="http://www.webbartgallery.com/">Webb Gallery</a></li>
-									<li><a href="https://www.krewe.com/">Krewe du Optic</a></li>
-									<li><a href="http://oldneworleansrum.com/">Old New Orleans Rum</a></li>
+									<li>Hard Rock Casino + Resort</li>
+									<li>Reliant Energy</li>
+									<li>Rich's Foods</li>
+									<li>Sonic</li>
+									<li>Texaco</li>
+									<li>Tyson</li>
+									<li>VW</li>
+									<li>Walmart</li>
+									<li>Saint Theresa Catholic School</li>
+									<li>Webb Gallery</li>
+									<li>Krewe du Optic</li>
+									<li>Old New Orleans Rum</li>
 								</ul>
 							</div>
 

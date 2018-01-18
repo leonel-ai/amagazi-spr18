@@ -221,4 +221,17 @@ p {
         font: 100% $font-title;
     }
 
+    .copyright-footer {
+        font: 10px $font-body;
+    }
+
+    .ft-contact p, .ft-social p {
+        line-height: 1rem;
+    }
+
+    .ft-contact h3, .ft-social h3 {
+        line-height: .25rem;
+    }
+
+
 }

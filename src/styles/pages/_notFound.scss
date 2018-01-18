@@ -4,12 +4,10 @@
 .nf-grid {
     display: grid;
     box-sizing: border-box;
-    max-width: 1680px;
-    grid-template-columns: 1fr 2fr;
-    grid-auto-rows: minmax(160px, auto);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.nf-header {  
+.nf-header {
     grid-column: 1 / 3;
     align-self: center;
     text-align: right;
@@ -72,7 +70,7 @@
         grid-column: 1 / 3;
         align-self: center;
     }
-    
+
     .nf-box2-mob {
         display: grid;
         grid-column: 1 / 3;
@@ -86,7 +84,7 @@
     .nf-msg {
         text-align: center;
     }
-    
+
     .nf-title {
         text-align: center;
         line-height: initial;

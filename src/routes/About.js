@@ -3,7 +3,6 @@ import Footer from './Footer';
 import '../styles/Main.scss';
 
 import aboutPageImg from '../assets/about.png';
-import aboutMobile from '../assets/about_m.png';
 import ryan from '../assets/team/ryan.png';
 import chrisj from '../assets/team/chrisJ.png';
 import miguel from '../assets/team/miguel.png';
@@ -34,7 +33,7 @@ render() {
 					</div>
 
 
-					<div className="ab-box2-desk">
+					<div className="ab-box2-desk ab-box2-desk-16x9">
 							<img className="ab-pg-img-desk" src={aboutPageImg} alt="about-desktop" />
 					</div>
 
@@ -42,7 +41,9 @@ render() {
 					<div className="ab-box1-mob">
 							<h1 className="ab-title">who we are</h1>
 							<div className="ab-box2-mob">
-									<img className="ab-pg-img-mob" src={aboutMobile} alt="about-mobile"/>
+								<div className="ab-box2-mobImg ab-box2-mobImg">
+									<img className="ab-pg-img-mob" src={aboutPageImg} alt="about-mobile"/>
+								</div>
 									<div className="ab-text-mob">
 											<h2 className="subtitles-mob">provocateurs with a purpose</h2>
 											<p>We are brainy business experts, culture connoisseurs, and catalysts for getting what you want.
@@ -101,7 +102,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={chrisj} alt="chrisj" className="teamBioImg" />
-											<h4 className="bio1">Chris’s dual approach to solving the toughest business problems is unrivaled. You can count on
+											<h4 className="bio">Chris’s dual approach to solving the toughest business problems is unrivaled. You can count on
 											him to challenge all angles of any obstacle he comes across. His bold approach to problem-solving is one that our
 											clients appreciate. And his thought-driven leadership is one that our team aspires to model each day.</h4>
 
@@ -112,7 +113,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={miguel} alt="miguel" className="teamBioImg" />
-											<h4 className="bio1">Miguel has helped shape the ad industry for more than 25 years.
+											<h4 className="bio">Miguel has helped shape the ad industry for more than 25 years.
 											He’s seen it all. He keeps our team strategic and forward-thinking and is steadfast
 											in his pursuit of excellence and innovation through communication. Miguel never
 											fails to capture the human connection with his unique storytelling approach.</h4>
@@ -124,7 +125,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={tiffany} alt="tiffany" className="teamBioImg" />
-											<h4 className="bio0">Tiffany is a seasoned international player in the business and advertising
+											<h4 className="bio">Tiffany is a seasoned international player in the business and advertising
 											world. She knows how to simplify and take on complex business problems while turning them
 											into pure gold. She has developed proven business performance strategies throughout her
 											career and has an intrinsic flexibility with all things tech.
@@ -137,7 +138,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={shaina} alt="shaina" className="teamBioImg" />
-											<h4 className="bio2">Shaina writes stories you want to share and headlines you want to embody.
+											<h4 className="bio">Shaina writes stories you want to share and headlines you want to embody.
 											She empowers brands with profound narratives that inspire the masses to action. She speaks every
 											language of the brands we work with and uses that language to activate success.
 											</h4>
@@ -149,7 +150,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={hillary} alt="hillary" className="teamBioImg" />
-											<h4 className="bio4">Hillary brings to the team an impressive background in fashion and retail management.
+											<h4 className="bio">Hillary brings to the team an impressive background in fashion and retail management.
 											She’s a master at delivering big projects for big clients and has a meticulous eye for detail. Her innate
 											ability to see the big picture is proven everyday through her multigenerational approach to marketing.
 											</h4>
@@ -161,7 +162,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={chrisf} alt="chrisf" className="teamBioImg" />
-											<h4 className="bio2">Chris turns beautiful art into strategic design. His years in the marketing industry have groomed
+											<h4 className="bio">Chris turns beautiful art into strategic design. His years in the marketing industry have groomed
 											him into one of the most talented creatives in advertising. His fresh perspective on design makes him an invaluable
 											asset to our team, and to our clients.</h4>
 
@@ -173,7 +174,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={leonela} alt="leonela" className="teamBioImg" />
-											<h4 className="bio4">Leonela is a scientist and artist of the next-generation digital experience. She always stays
+											<h4 className="bio">Leonela is a scientist and artist of the next-generation digital experience. She always stays
 											ahead of the latest technology and knows how to create a truly captivating user journey. Her approach to digital
 											communication always leads us toward the best path to innovation and creativity. </h4>
 
@@ -185,7 +186,7 @@ render() {
 							<div className="item">
 									<div className="item-media">
 											<img src={forrest} alt="forrest" className="teamBioImg" />
-											<h4 className="bio3">Forrest is a video production genius. He has worked on major movies and television series
+											<h4 className="bio">Forrest is a video production genius. He has worked on major movies and television series
 											and knows how to articulate narratives through stunning visuals. His work will transport you into an awe-inspiring
 											visual experience</h4>
 

@@ -37,6 +37,17 @@ p {
     letter-spacing: 3px;
 }
 
+.copyright-footer {
+    padding-top: 12px;
+    font: 12px $font-body;
+}
+
+.priv-title {
+    font: 200% $font-title;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
 /* HOME */
 .hm-title {
     font: 420% $font-title;
@@ -57,8 +68,9 @@ p {
     font: 120% $font-title;
 }
 
-.bio, .bio0, .bio1, .bio2, .bio3, .bio4 {
-    line-height: 24px;
+.item-media h4 {
+    font: 85% $font-body;
+    line-height: 1.5rem;
 }
 
 /* SERVICES */
@@ -76,17 +88,6 @@ p {
     font: 100% $font-body;
     letter-spacing: 3px;
     line-height: 26px;
-}
-
-/* NEWS */
-.news-title {
-    font: 300% $font-title;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-
-.news-header {
-    font: 120% $font-title;
 }
 
 
@@ -117,10 +118,28 @@ p {
         font: 125% $font-title;
         letter-spacing: 1.2px;
     }
+
+    .ab-title {
+        font: 200% $font-title;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    .item-media h4 {
+        font: 80% $font-body;
+        line-height: 1.25rem;
+    }
+
+     .srv-title {
+        font: 200% $font-title;
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+
 }
 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1135px) {
 
     p {
         font: 80% $font-body;
@@ -136,6 +155,12 @@ p {
     .subtitles-mob {
         font: 110% $font-title;
         letter-spacing: 1.2px;
+    }
+
+    .priv-title {
+        font: 180% $font-title;
+        font-weight: bold;
+        letter-spacing: 2px;
     }
 
     /* HOME */
@@ -168,6 +193,11 @@ p {
         letter-spacing: 1.2px;
     }
 
+    .item-media h4 {
+        font: 14px $font-body;
+        line-height: 1.25rem;
+    }
+
     /* SERVICES */
     .srv-title {
         font: 200% $font-title;
@@ -176,18 +206,6 @@ p {
     }
 
     .srv-header {
-        font: 100% $font-title;
-    }
-
-
-    /* NEWS */
-    .news-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
-
-    .news-header {
         font: 100% $font-title;
     }
 

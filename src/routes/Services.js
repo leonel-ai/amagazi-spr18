@@ -27,14 +27,16 @@ class Services extends Component {
 					<a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">Let’s connect.</a>
 					</p>
 				</div>
-				<div className="srv-box2-desk">
-						<iframe width="960" height="600" src="https://youtube.com/embed/kyuVkudbjBw" className="show-deck" title="show-deck"></iframe>
+				<div className="srv-box2-desk srv-box2-desk-16x9">
+						<iframe src="https://youtube.com/embed/kyuVkudbjBw" className="show-deck" allowFullScreen title="show-deck"></iframe>
 				</div>
 
 					<div className="srv-box1-mob">
 						<h1 className="srv-title">how we think</h1>
 						<div className="srv-box2-mob">
-							<iframe width="400" height="300" src="https://youtube.com/embed/kyuVkudbjBw" title="show-deck"></iframe>
+							<div className="srv-box2-mobVid srv-box2-mobVid">
+								<iframe src="https://youtube.com/embed/kyuVkudbjBw" allowFullScreen title="show-deck"></iframe>
+							</div>
 							<div className="srv-text-mob">
 							<h2 className="subtitles-mob">our approach to success</h2>
 							<p>We speak human in all we create and only produce work that invokes curiosity. We inspire the masses to take

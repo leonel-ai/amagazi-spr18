@@ -9,6 +9,7 @@ import Home from './Home';
 import About from './About';
 import Services from './Services';
 import NotFound from './NotFound';
+import Privacy from './Privacy';
 
 
 class Routes extends Component {
@@ -29,6 +30,7 @@ class Routes extends Component {
                     <Route exact path="/" render={(props) => <Home {...props} />} />
                     <Route exact path="/about" render={(props) => <About {...props} />} />
                     <Route exact path="/services" render={(props) => <Services {...props} />} />
+                    <Route exact path="/privacy" render={(props) => <Privacy {...props} />} />
                     <Route exact path="/*" render={(props) => <NotFound {...props} />} />
 
                     </Switch>

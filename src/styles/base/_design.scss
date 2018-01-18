@@ -64,7 +64,7 @@ ul, li {
     color: $primary-color;
 }
 
-.hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid {
+.hm-grid, .ab-grid, .srv-grid, .news-grid, .priv-grid, .nf-grid {
     padding-top: 85px;
     padding-bottom: 0;
     padding-left: 0px;
@@ -124,7 +124,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1135px) {
     .hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid {
         padding-top: 60px;
         padding-bottom: 0;

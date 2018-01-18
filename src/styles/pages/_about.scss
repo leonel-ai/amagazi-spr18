@@ -4,16 +4,15 @@
 .ab-grid {
     display: grid;
     box-sizing: border-box;
-    max-width: 1680px;
-    grid-template-columns: 1fr 2fr;
-    grid-auto-rows: minmax(160px, auto);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    overflow: hidden;
 }
 
 .ab-box1-desk {
     grid-column: 1;
     justify-items: center;
     padding-left: 28px;
-    padding-right: 20px;
+    padding-right: 100px;
     padding-top: 12px;
 }
 
@@ -24,8 +23,22 @@
 
 .ab-box2-desk {
     grid-column: 2;
-    justify-self: right;
     padding-top: 12px;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.ab-box2-desk img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ab-box2-desk-16x9 {
+    padding-bottom: 60%;
 }
 
 .ab-std-lead {
@@ -86,135 +99,65 @@
 .item {
     padding: 0;
     max-width: 512px;
-    height: 343px;
     overflow: hidden;
-    float: left;
 }
 
 .item-media {
     position: relative;
-    max-width: 512px;
+    height: 0;
+    overflow: hidden;
 }
 
-.bio {
-    text-align: left;
-    max-width: 512px;
+.item-media img {
     position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-195%);
-    -webkit-transform:translate(0%,-195%);
-    color:#FFFFFF;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.item-media {
+    padding-bottom: 64%;
+}
+
+.item-media .bio {
+    position: absolute;
+    top:0;
+    left: 18px;
+    width: 90%;
+    height: 100%;
+}
+
+.item-media .bio {
     text-transform:lowercase;
     display:none;
     overflow: hidden;
-    font-family: Stevie Sans;
-    letter-spacing: 2px;
-}
-
-.bio0 {
-    text-align: left;
-    max-width: 512px;
-    position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-195%);
-    -webkit-transform:translate(0%,-195%);
-    color:#FFFFFF;
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    font-family: Stevie Sans;
-    letter-spacing: 2px;
-}
-
-.bio1 {
-    text-align: left;
-    max-width: 512px;
-    position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-196%);
-    -webkit-transform:translate(0%,-196%);
-    color:#FFFFFF;
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    font-family: Stevie Sans;
-    letter-spacing: 2px;
-}
-
-.bio2 {
-    text-align: left;
-    max-width: 512px;
-    position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-230%);
-    -webkit-transform:translate(0%,-230%);
-    color:#FFFFFF;
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    font-family: Stevie Sans;
-    letter-spacing: 2px;
-}
-
-
-.bio3 {
-    text-align: left;
-    max-width: 512px;
-    position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-272%);
-    -webkit-transform:translate(0%,-272%);
-    color:#FFFFFF;
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    font-family: Stevie Sans;
-    letter-spacing: 2px;
-}
-
-
-.bio4 {
-    text-align: left;
-    max-width: 512px;
-    position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-226%);
-    -webkit-transform:translate(0%,-226%);
-    color:#FFFFFF;
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    font-family: Stevie Sans;
     letter-spacing: 2px;
 }
 
 .item-media h2 {
-    text-align: left;
-    max-width: 512px;
     position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-300%);
-    -webkit-transform:translate(0%,-300%);
-    color:#FFFFFF;
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    letter-spacing: 3px;
-  }
+    top:72%;
+    left: 18px;
+    width: 90%;
+    height: 0%;
+}
 
-.jobTitle {
-    text-align: left;
-    max-width: 512px;
-    position: absolute;
-    padding-left: 18px;
-    transform:translate(0%,-310%);
-    -webkit-transform:translate(0%,-310%);
-    color:#FFFFFF;
-    text-transform:lowercase;
+.item-media h2 {
     display:none;
-    overflow: hidden;
-    font-family: Stevie Sans;
-    letter-spacing: 3px;
+}
+
+.item-media h4 {
+    position: absolute;
+    top:82%;
+    left: 18px;
+    width: 90%;
+    height: 0%;
+}
+
+.item-media h4 {
+    display:none;
+    letter-spacing: 2px;
 }
 
 .teamBioImg {
@@ -270,10 +213,6 @@
     padding-bottom: 12px;
 }
 
-.ab-pg-img-desk {
-    max-width: 960px;
-}
-
 .ab-box1-mob {
     display: none;
 }
@@ -288,17 +227,9 @@
 
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
-
     .ab-grid {
-        grid-template-columns: 1fr 2fr;
-        grid-auto-rows: minmax(44px, auto);
-    }
-
-    .ab-box1-desk {
-        grid-column: 1;
-        padding-left: 28px;
-        padding-right: 20px;
-        padding-bottom: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        overflow: hidden;
     }
 
     .ab-box1-desk .ab-title {
@@ -312,8 +243,11 @@
 
     .ab-box2-desk {
         grid-column: 2;
-        justify-self: right;
         padding-bottom: 10px;
+    }
+
+    .ab-box2-desk-16x9 {
+        padding-bottom: 50%;
     }
 
     .ab-std-desk .ab-title {
@@ -340,10 +274,6 @@
         display: none;
     }
 
-    .ab-pg-img-desk {
-        max-width: 836px;
-    }
-
     .ab-team {
         grid-column: 1 / 3;
         align-self: end;
@@ -359,80 +289,16 @@
 
     .ab-grid-team {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 1 / 3;
         grid-column-gap: 10px;
         grid-row-gap: 15px;
-        grid-template-columns: 1fr 1fr 1fr;
         padding: 0;
-        justify-self: center;
         padding-top: 10px;
         padding-bottom: 20px;
     }
 
     .item {
-        max-width: 428px;
-        height: auto;
-    }
-
-
-.bio {
-    max-width: 426px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 14px;
-    transform:translate(0%,-150%);
-    -webkit-transform:translate(0%,-150%);
-}
-
-.bio0 {
-    max-width: 426px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 14px;
-    transform:translate(0%,-150%);
-    -webkit-transform:translate(0%,-150%);
-}
-
-.bio1 {
-    max-width: 426px;
-    padding-left: 18px;
-    font-size: 14px;
-    transform:translate(0%,-170%);
-    -webkit-transform:translate(0%,-170%);
-}
-
-.bio2 {
-    max-width: 426px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 14px;
-    transform:translate(0%,-200%);
-    -webkit-transform:translate(0%,-200%);
-}
-
-
-.bio3 {
-    max-width: 426px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 14px;
-    transform:translate(0%,-200%);
-    -webkit-transform:translate(0%,-200%);
-}
-
-.bio4 {
-    max-width: 426px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 14px;
-    transform:translate(0%,-170%);
-    -webkit-transform:translate(0%,-170%);
-}
-
-    .item-media h2 {
-        max-width: 428px;
-    }
-
-    .item-media h4 {
         max-width: 428px;
     }
 
@@ -492,39 +358,45 @@
 }
 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1136px) {
     .ab-grid {
-        grid-template-columns: 1fr auto;
-        grid-auto-rows: minmax(44px, auto);
-        padding-top: 0;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding-top: 10%;
+        overflow: hidden;
     }
 
-    .ab-box1-desk {
-        display: none;
-    }
-
-    .ab-box2-desk {
-        display: none;
-    }
-
-    .ab-box3-desk {
-        display: none;
-    }
-
-    .ab-box4-desk {
+    .ab-box1-desk, .ab-box2-desk, .ab-box3-desk, .ab-box4-desk {
         display: none;
     }
 
     .ab-box1-mob {
         display: grid;
-        grid-column: 1;
+        grid-column: 1 / 3;
         align-self: center;
     }
 
     .ab-box2-mob {
         display: grid;
-        grid-template-columns: 1fr;
         padding-top: 18px;
+    }
+
+    .ab-box2-mobImg {
+        padding-top: 12px;
+        position: relative;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .ab-box2-mobImg img {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ab-box2-mobImg {
+        padding-bottom: 50%;
     }
 
     .ab-std-lead {
@@ -547,11 +419,6 @@
         padding-bottom: 20px;
     }
 
-    .ab-pg-img-mob {
-        max-width: 400px;
-        justify-self: center;
-    }
-
     .ab-text-mob {
         padding-top: 20px;
         padding-bottom: 0;
@@ -560,7 +427,7 @@
     }
 
     .ab-team {
-        grid-column: 1;
+        grid-column: 1 / 3;
         align-self: end;
         padding: 0;
         padding-top: 20px;
@@ -569,86 +436,18 @@
 
     .ab-grid-team {
         display: grid;
-        grid-column-gap: 0;
-        grid-row-gap: 12px;
-        grid-template-columns: 1fr;
+        grid-column: 1 / 3;
+        grid-column-gap: 2px;
+        grid-row-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(382px, 1fr));
         padding: 0;
-        justify-self: center;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     .item {
         max-width: 400px;
         height: 268px;
-    }
-
-
-.bio {
-    max-width: 400px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transform:translate(0%,-180%);
-    -webkit-transform:translate(0%,-180%);
-}
-
-.bio0 {
-    max-width: 400px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transform:translate(0%,-180%);
-    -webkit-transform:translate(0%,-180%);
-}
-
-.bio1 {
-    max-width: 400px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transform:translate(0%,-180%);
-    -webkit-transform:translate(0%,-180%);
-}
-
-.bio2 {
-    max-width: 400px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transform:translate(0%,-216%);
-    -webkit-transform:translate(0%,-216%);
-}
-
-
-.bio3 {
-    max-width: 400px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transform:translate(0%,-216%);
-    -webkit-transform:translate(0%,-216%);
-}
-
-.bio4 {
-    max-width: 400px;
-    padding-left: 18px;
-    padding-right: 10px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transform:translate(0%,-180%);
-    -webkit-transform:translate(0%,-180%);
-}
-
-    .item-media h2 {
-        max-width: 400px;
-    }
-
-    .item-media h4 {
-        max-width: 400px;
     }
 
     .teamBioImg {

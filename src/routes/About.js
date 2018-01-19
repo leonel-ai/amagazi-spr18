@@ -39,7 +39,7 @@ render() {
 				<div className="ab-text-mob">
 					<h2 className="subtitles-mob">provocateurs with a purpose</h2>
 					<p>We are brainy business experts, culture connoisseurs, and catalysts for getting what you want.
-				Our expertise includes branding, business strategy, and crafting share-worthy consumer experiences.
+					Our expertise includes branding, business strategy, and crafting share-worthy consumer experiences.
 					<br/><br/>
 					<a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">Let’s talk.</a></p>
 				</div>
@@ -47,7 +47,7 @@ render() {
 	</div>
 
 	<div className="ab-std-lead">
-		<div id="our-standards" className="ab-std-desk">
+		<div className="ab-std-desk">
 			<h1 className="ab-title">our standard</h1>
 			<h2 className="subtitles">exclusive. transparent. responsive. efficient.</h2>
 			<p>We are entrepreneurs who have blazed our own trails and have gained lots of business wisdom along the way.
@@ -141,7 +141,7 @@ render() {
 	</Card>
 
 	<Card title="full stack developer">
-		<h4 className="bio"><span className="bio-name">Leonela Guzman</span><br/><br/>Leonela is a scientist and artist of the next-generation digital experience. She always stays
+		<h4 className="bio"><span className="bio-name">Leonela Guzm&aacute;n</span><br/><br/>Leonela is a scientist and artist of the next-generation digital experience. She always stays
 		ahead of the latest technology and knows how to create a truly captivating user journey. Her approach to digital
 		communication always leads us toward the best path to innovation and creativity. </h4>
 	</Card>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Main.css';
 import homeGif from '../assets/home-desktop.gif';
 import homeMobile from '../assets/home-mobile.gif';
@@ -19,6 +20,11 @@ class Home extends Component {
 
             <div className="hm-box1-mob">
                 <img className="hm-pg-img" src={homeMobile} alt="homepage" />
+            </div>
+
+            <div className="hm-ft-privacy">
+                <p className="copyright-footer">copyright ©2018 — <Link className="hm-priv" to="/privacy">privacy policy</Link>
+            </p>
             </div>
         </div>
         )

@@ -1,6 +1,6 @@
 /* bio cards */
 
-$card-font: 100% $font-body;
+$card-font: 14px $font-body;
 $card-color: white;
 $card-bg: black;
 $card-size: 25rem;
@@ -36,7 +36,7 @@ $degree: 90deg;
       position: relative;
       font: $card-font;
       color: $card-color;
-      letter-spacing: 1px;
+      letter-spacing: .5px;
       line-height: 26px;
       padding-top: 10%;
       padding-left: 10%;

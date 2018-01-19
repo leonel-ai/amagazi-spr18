@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../styles/Main.scss';
 import logo from '../assets/logo.png';
 
@@ -14,8 +14,6 @@ class Footer extends Component {
                     <a href="http://www.amagazi.com">
                         <img className="ft-logo-img" src={logo} alt="footer-logo"/><br/>
                     </a>
-                        <p className="copyright-footer"><NavLink to="/privacy">privacy</NavLink> —
-                        copyright ©2018</p>
                 </div>
 
                 <div className="ft-contact">
@@ -34,6 +32,10 @@ class Footer extends Component {
                         <a href="https://twitter.com/amagazicorp" rel="noopener noreferrer" target="_blank">twitter</a><br/>
                         <a href="https://www.medium.com/@amagazi" rel="noopener noreferrer" target="_blank">blog</a>
                     </p>
+                </div>
+
+                <div className="ft-privacy">
+                    <p className="copyright-footer">copyright ©2018 — <Link to="/privacy">privacy policy</Link></p>
                 </div>
             </div>
         );

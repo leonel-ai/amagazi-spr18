@@ -32,6 +32,14 @@
     justify-self: center;
 }
 
+.ft-privacy {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    grid-row-gap: 12px;
+    justify-self: center;
+    align-self: end;
+}
+
 @media screen and (min-width: 736px) and (max-width: 1366px) {
     .main-footer-grid {
         min-height: 250px;
@@ -78,6 +86,13 @@
         justify-self: end;
         padding-right: 30px;
         padding-top: 1em;
+    }
+
+    .ft-privacy {
+        grid-column: 1 / 3;
+        grid-row: 3;
+        justify-self: center;
+        align-self: end;
     }
 
 }

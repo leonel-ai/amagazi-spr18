@@ -14,7 +14,7 @@ render() {
 
 	<div className="ab-box1-desk">
 		<h1 className="ab-title">who we are</h1>
-		<h2 className="subtitles">provocateurs with a purpose</h2>
+		<h2 className="subtitles">provocateurs with purpose</h2>
 		<p>We are brainy business experts, culture connoisseurs, and catalysts for getting what you want.
 			We’re forward-thinkers and advocators of agitating the status quo. We solve business obstacles
 			with strategies and creativity across platforms that make sense. Our expertise includes
@@ -37,7 +37,7 @@ render() {
 				<img className="ab-pg-img-mob" src={aboutPageImg} alt="about-mobile"/>
 			</div>
 				<div className="ab-text-mob">
-					<h2 className="subtitles-mob">provocateurs with a purpose</h2>
+					<h2 className="subtitles-mob">provocateurs with purpose</h2>
 					<p>We are brainy business experts, culture connoisseurs, and catalysts for getting what you want.
 					Our expertise includes branding, business strategy, and crafting share-worthy consumer experiences.
 					<br/><br/>

@@ -140,9 +140,9 @@ p {
 @media screen and (max-width: 1135px) {
 
 	p {
-			font: 14px $font-body;
+			font: 16px $font-body;
 			letter-spacing: .5px;
-			line-height: 26px;
+			line-height: 24px;
 	}
 
 	h1 {
@@ -194,6 +194,10 @@ p {
 	.cards > .Card > h3 {
 			font: 100% $font-title !important;
 			letter-spacing: .75px;
+	}
+
+	.ab-text-mob .subtitles-mob {
+		letter-spacing: .85px;
 	}
 
 	/* SERVICES */

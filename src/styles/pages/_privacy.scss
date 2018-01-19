@@ -3,9 +3,8 @@
 .priv-grid {
   display: grid;
   box-sizing: border-box;
-  max-width: 1680px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
+  overflow: hidden;
+  grid-template-columns: 1fr 2fr;
 }
 
 .priv-state1 {
@@ -31,7 +30,7 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1135px) {
   .priv-grid {
     grid-template-columns: 1fr auto;
     grid-auto-rows: minmax(44px, auto);

@@ -215,7 +215,6 @@ p {
 	.nf-title {
 			font: 200% $font-title;
 			font-weight: bold;
-			letter-spacing: 3px;
 	}
 
 	.nf-header {
@@ -232,6 +231,11 @@ p {
 
 	.ft-contact h3, .ft-social h3 {
 			line-height: .25rem;
+	}
+
+	.priv-title {
+			font: 200% $font-title;
+			font-weight: bold;
 	}
 
 

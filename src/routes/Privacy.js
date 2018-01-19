@@ -9,7 +9,7 @@ class Privacy extends Component {
       <div className="priv-grid">
 
         <div className="priv-state1">
-        <h1 className="priv-title">privacy statement</h1>
+        <h1 className="priv-title">privacy policy</h1>
           <p>amagazi respects your privacy.
             We have implemented a privacy policy that outlines the use
             of personally identifiable information on our site.

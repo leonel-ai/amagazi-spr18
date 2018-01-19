@@ -85,7 +85,18 @@
     padding-bottom: 60px;
 }
 
-.ab-grid-team {
+// .ab-grid-team {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-column: 1 / 3;
+//     grid-column-gap: 15px;
+//     grid-row-gap: 20px;
+//     padding-left: 28px;
+//     padding-right: 28px;
+//     padding-bottom: 60px;
+// }
+
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1 / 3;
@@ -96,87 +107,89 @@
     padding-bottom: 60px;
 }
 
-.item {
-    padding: 0;
-    max-width: 512px;
-    overflow: hidden;
-}
+// .item {
+//     padding: 0;
+//     max-width: 512px;
+//     overflow: hidden;
+// }
 
-.item-media {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-}
+// .item-media {
+//     position: relative;
+//     height: 0;
+//     overflow: hidden;
+// }
 
-.item-media img {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+// .item-media img {
+//     position: absolute;
+//     top:0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+// }
 
-.item-media {
-    padding-bottom: 64%;
-}
+// .item-media {
+//     padding-bottom: 64%;
+// }
 
-.item-media .bio {
-    position: absolute;
-    top:0;
-    left: 18px;
-    width: 90%;
-    height: 100%;
-}
+// .item-media .bio {
+//     position: absolute;
+//     top:0;
+//     left: 18px;
+//     width: 90%;
+//     height: 100%;
+// }
 
-.item-media .bio {
-    text-transform:lowercase;
-    display:none;
-    overflow: hidden;
-    letter-spacing: 2px;
-}
+// .item-media .bio {
+//     overflow: hidden;
+//     letter-spacing: 2px;
+// }
 
-.item-media h2 {
-    position: absolute;
-    top:72%;
-    left: 18px;
-    width: 90%;
-    height: 0%;
-}
+// .item-media h2 {
+//     position: absolute;
+//     top:72%;
+//     left: 18px;
+//     width: 90%;
+//     height: 0%;
+// }
 
-.item-media h2 {
-    display:none;
-}
+// .item-media h2 {
+//     // display:none;
+//     opacity: .001;
+// }
 
-.item-media h4 {
-    position: absolute;
-    top:82%;
-    left: 18px;
-    width: 90%;
-    height: 0%;
-}
+// .item-media h4 {
+//     position: absolute;
+//     top:82%;
+//     left: 18px;
+//     width: 90%;
+//     height: 0%;
+// }
 
-.item-media h4 {
-    display:none;
-    letter-spacing: 2px;
-}
+// .item-media h4 {
+//     // display:none;
+//     opacity: .001;
+//     letter-spacing: 2px;
+// }
 
-.teamBioImg {
-    max-width: 512px;
-}
+// .teamBioImg {
+//     max-width: 512px;
+// }
 
-.item:hover img {
-    filter: brightness(0.3);
-    -webkit-filter:brightness(0.3);
-    -moz-filter:brightness(0.3);
-}
+// .item:hover img {
+//     filter: brightness(0.3);
+//     -webkit-filter:brightness(0.3);
+//     -moz-filter:brightness(0.3);
+// }
 
-.item:hover h2{
-    display: block;
-}
+// .item:hover h2{
+//     // display: block;
+//     opacity: 1;
+// }
 
-.item:hover h4{
-    display: block;
-}
+// .item:hover h4{
+//     // display: block;
+//     opacity: 1;
+// }
 
 .ab-grid-bottom {
     display: grid;

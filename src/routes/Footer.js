@@ -15,8 +15,7 @@ class Footer extends Component {
                         <img className="ft-logo-img" src={logo} alt="footer-logo"/><br/>
                     </a>
                         <p className="copyright-footer"><NavLink to="/privacy">privacy</NavLink> —
-                        copyright ©2018. amagazi, llc — all rights reserved<br/>
-                        use of this site means you are in agreement to our privacy policy</p>
+                        copyright ©2018</p>
                 </div>
 
                 <div className="ft-contact">
@@ -32,8 +31,7 @@ class Footer extends Component {
                     <h3>follow us</h3>
                     <p>
                         <a href="https://www.linkedin.com/company/amagazi/" rel="noopener noreferrer" target="_blank">linkedin</a><br/>
-                        <a href="https://www.facebook.com/amagazi" rel="noopener noreferrer" target="_blank">facebook</a><br/>
-                        <a href="https://www.instagram.com/amagazi/" rel="noopener noreferrer" target="_blank">instagram</a><br/>
+                        <a href="https://twitter.com/amagazicorp" rel="noopener noreferrer" target="_blank">twitter</a><br/>
                         <a href="https://www.medium.com/@amagazi" rel="noopener noreferrer" target="_blank">blog</a>
                     </p>
                 </div>

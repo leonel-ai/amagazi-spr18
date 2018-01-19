@@ -38,7 +38,6 @@ p {
 }
 
 .copyright-footer {
-    padding-top: 12px;
     font: 12px $font-body;
 }
 
@@ -71,6 +70,10 @@ p {
 .item-media h4 {
     font: 85% $font-body;
     line-height: 1.5rem;
+}
+
+.bio-name {
+    font: 120% $font-title;
 }
 
 /* SERVICES */

@@ -104,7 +104,7 @@ class Services extends Component {
 									<li>Exxon</li>
 									<li>Campbell's</li>
 									<li>Pepperidge Farm</li>
-									<li>General MillS</li>
+									<li>General Mills</li>
 									<li>Houston Rising</li>
 									<li>OppenheimerFunds</li>
 									<li>Fully Raw</li>

@@ -28,7 +28,7 @@ class Services extends Component {
 					</p>
 				</div>
 				<div className="srv-box2-desk srv-box2-desk-16x9">
-						<iframe src="https://youtube.com/embed/kyuVkudbjBw" className="show-deck" allowFullScreen title="show-deck"></iframe>
+						<iframe src="https://youtube.com/embed/kyuVkudbjBw?rel=0" className="show-deck" allowFullScreen title="show-deck"></iframe>
 				</div>
 
 					<div className="srv-box1-mob">
@@ -104,7 +104,7 @@ class Services extends Component {
 									<li>Exxon</li>
 									<li>Campbell's</li>
 									<li>Pepperidge Farm</li>
-									<li>General Mill</li>
+									<li>General MillS</li>
 									<li>Houston Rising</li>
 									<li>OppenheimerFunds</li>
 									<li>Fully Raw</li>

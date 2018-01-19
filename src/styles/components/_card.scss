@@ -1,7 +1,6 @@
 /* bio cards */
 
-
-$card-font: 110% $font-body;
+$card-font: 100% $font-body;
 $card-color: white;
 $card-bg: black;
 $card-size: 25rem;
@@ -10,7 +9,7 @@ $perspective: 25rem;
 $degree: 90deg;
 
 .Card {
-  margin: 1rem;
+  margin: 0;
   display: inline-block;
   cursor: pointer;
 
@@ -25,20 +24,23 @@ $degree: 90deg;
       margin: 0;
       padding: 0.5rem;
     }
+
     h3 {
       padding: 0 2rem;
       position: relative;
       top: 2rem;
+      font: 128% $font-title;
     }
 
     h4 {
       position: relative;
       font: $card-font;
       color: $card-color;
-      line-height: 1.5rem;
+      letter-spacing: 1px;
+      line-height: 26px;
       padding-top: 10%;
       padding-left: 10%;
-      padding-right: 5%;
+      padding-right: 10%;
     }
   }
 
@@ -47,7 +49,6 @@ $degree: 90deg;
     z-index: 1;
     color: $card-color;
     background-color: $card-bg;
-    background: url('../assets/team/ryan.png');
 
 
     // Animations
@@ -71,7 +72,6 @@ $degree: 90deg;
   }
 
   .Card-Back {
-    font-size: 0.9rem;
     position: relative;
     z-index: -1;
     top: -$card-size / 2;
@@ -100,7 +100,7 @@ $degree: 90deg;
   }
 }
 
-.Cards {
+.cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -117,4 +117,41 @@ $degree: 90deg;
     .Card-Front { background-color: $card-bg; color: $card-color; }
     .Card-Back { background-color: $card-bg; color: $card-color; }
   }
+
+  .Card:nth-child(1) {
+    .Card-Front { background: url('../assets/team/ryan.png');}
+  }
+
+  .Card:nth-child(2) {
+    .Card-Front { background: url('../assets/team/chrisJ.png');}
+  }
+
+  .Card:nth-child(3) {
+    .Card-Front { background: url('../assets/team/miguel.png');}
+  }
+
+  .Card:nth-child(4) {
+    .Card-Front { background: url('../assets/team/tiffany.png');}
+  }
+
+  .Card:nth-child(5) {
+    .Card-Front { background: url('../assets/team/shaina.png');}
+  }
+
+  .Card:nth-child(6) {
+    .Card-Front { background: url('../assets/team/hillary.png');}
+  }
+
+  .Card:nth-child(7) {
+    .Card-Front { background: url('../assets/team/chrisf.png');}
+  }
+
+  .Card:nth-child(8) {
+    .Card-Front { background: url('../assets/team/leonela.png');}
+  }
+
+  .Card:nth-child(9) {
+    .Card-Front { background: url('../assets/team/forrest.png');}
+  }
+
 }

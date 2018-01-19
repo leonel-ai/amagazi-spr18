@@ -1,19 +1,19 @@
 
 @font-face {
-    font-family: 'ia_writer_duospace';
-    src: url('../assets/titleFont/iawriterduospace-bold-webfont.woff2') format('woff2'),
-         url('../assets/titleFont/iawriterduospace-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'ia_writer_duospace';
+	src: url('../assets/titleFont/iawriterduospace-bold-webfont.woff2') format('woff2'),
+				url('../assets/titleFont/iawriterduospace-bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'ia_writer_duospace';
-    src: url('../assets/titleFont/iawriterduospace-regular-webfont.woff2') format('woff2'),
-         url('../assets/titleFont/iawriterduospace-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'ia_writer_duospace';
+	src: url('../assets/titleFont/iawriterduospace-regular-webfont.woff2') format('woff2'),
+				url('../assets/titleFont/iawriterduospace-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
@@ -23,218 +23,218 @@ $font-body: Stevie Sans, sans-serif;
 
 
 body {
-    font: 100% $font-title;
+	font: 100% $font-title;
 }
 
 p {
-    font: 100% $font-body;
-    letter-spacing: 1px;
-    line-height: 28px;
+	font: 100% $font-body;
+	letter-spacing: 1px;
+	line-height: 28px;
 }
 
 .subtitles {
-    font: 135% $font-title;
-    letter-spacing: 3px;
+	font: 135% $font-title;
+	letter-spacing: 3px;
 }
 
 .copyright-footer {
-    font: 12px $font-body;
+	font: 12px $font-body;
 }
 
 .priv-title {
-    font: 200% $font-title;
-    font-weight: bold;
-    letter-spacing: 2px;
+	font: 200% $font-title;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 
 /* HOME */
 .hm-title {
-    font: 420% $font-title;
+	font: 420% $font-title;
 }
 
 .hm-header {
-    font: 120% $font-title;
+	font: 120% $font-title;
 }
 
 /* ABOUT */
 .ab-title {
-    font: 300% $font-title;
-    font-weight: bold;
-    letter-spacing: 3px;
+	font: 300% $font-title;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .ab-header {
-    font: 120% $font-title;
+	font: 120% $font-title;
 }
 
-.item-media h4 {
-    font: 85% $font-body;
-    line-height: 1.5rem;
+.cards > .Card {
+	font: 85% $font-title;
+	letter-spacing: 2px;
 }
 
 .bio-name {
-    font: 120% $font-title;
+	font: 120% $font-title;
 }
 
 /* SERVICES */
 .srv-title {
-    font: 300% $font-title;
-    font-weight: bold;
-    letter-spacing: 1px;
+	font: 300% $font-title;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 .srv-header {
-    font: 120% $font-title;
+	font: 120% $font-title;
 }
 
 .srv-list {
-    font: 100% $font-body;
-    letter-spacing: 3px;
-    line-height: 26px;
+	font: 100% $font-body;
+	letter-spacing: 1px;
+	line-height: 26px;
 }
 
 
 /* NOT FOUND */
 .nf-title {
-    font: 300% $font-title;
-    font-weight: bold;
-    letter-spacing: 3px;
+	font: 300% $font-title;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .nf-header {
-    font: 120% $font-title;
+	font: 120% $font-title;
 }
 
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
-   /* HOME */
-   .hm-title {
-    font: 344% $font-title;
-    }
+	/* HOME */
+	.hm-title {
+	font: 344% $font-title;
+	}
 
-    .subtitles {
-        font: 125% $font-title;
-        letter-spacing: 1.2px;
-    }
+	.subtitles {
+			font: 125% $font-title;
+			letter-spacing: 1.2px;
+	}
 
-    .subtitles-mob {
-        font: 125% $font-title;
-        letter-spacing: 1.2px;
-    }
+	.subtitles-mob {
+			font: 125% $font-title;
+			letter-spacing: 1.2px;
+	}
 
-    .ab-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+	.ab-title {
+			font: 200% $font-title;
+			font-weight: bold;
+			letter-spacing: 3px;
+	}
 
-    .item-media h4 {
-        font: 80% $font-body;
-        line-height: 1.25rem;
-    }
-
-     .srv-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 0px;
-    }
+		.srv-title {
+			font: 200% $font-title;
+			font-weight: bold;
+			letter-spacing: 0px;
+	}
 
 }
 
 
 @media screen and (max-width: 1135px) {
 
-    p {
-        font: 80% $font-body;
-        letter-spacing: 3px;
-        line-height: 26px;
-    }
+	p {
+			font: 80% $font-body;
+			letter-spacing: 1px;
+			line-height: 26px;
+	}
 
-    h1 {
-        font: 120% $font-title;
-        line-height: 30px;
-    }
+	h1 {
+			font: 120% $font-title;
+			line-height: 30px;
+	}
 
-    .subtitles-mob {
-        font: 110% $font-title;
-        letter-spacing: 1.2px;
-    }
+	.subtitles-mob {
+			font: 110% $font-title;
+			letter-spacing: 1.2px;
+	}
 
-    .priv-title {
-        font: 180% $font-title;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
+	.priv-title {
+			font: 180% $font-title;
+			font-weight: bold;
+			letter-spacing: 2px;
+	}
 
-    /* HOME */
-    .hm-title {
-        font: 200% $font-title;
-    }
+	/* HOME */
+	.hm-title {
+			font: 200% $font-title;
+	}
 
-    .hm-header {
-        font: 100% $font-title;
-    }
+	.hm-header {
+			font: 100% $font-title;
+	}
 
-    /* ABOUT */
-    .ab-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+	/* ABOUT */
+	.ab-title {
+			font: 200% $font-title;
+			font-weight: bold;
+			letter-spacing: 3px;
+	}
 
-    .ab-header {
-        font: 100% $font-title;
-    }
+	.ab-header {
+			font: 100% $font-title;
+	}
 
-    .ab-std-lead .subtitles {
-        font: 110% $font-title;
-        letter-spacing: 1.2px;
-    }
+	.ab-std-lead-mob .subtitles {
+			font: 110% $font-title;
+			letter-spacing: 1.2px;
+	}
 
-    .ab-team .subtitles {
-        font: 110% $font-title;
-        letter-spacing: 1.2px;
-    }
+	.ab-team .subtitles {
+			font: 110% $font-title;
+			letter-spacing: 1.2px;
+	}
 
-    .item-media h4 {
-        font: 14px $font-body;
-        line-height: 1.25rem;
-    }
+	.cards > .Card > h3 {
+			font: 100% $font-title !important;
+			letter-spacing: .75px;
+	}
 
-    /* SERVICES */
-    .srv-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+	/* SERVICES */
+	.srv-title {
+			font: 200% $font-title;
+			font-weight: bold;
+			letter-spacing: 3px;
+	}
 
-    .srv-header {
-        font: 100% $font-title;
-    }
+	.srv-header {
+			font: 100% $font-title;
+	}
+
+	.srv-list {
+			letter-spacing: 1px;
+			line-height: 26px;
+	}
 
 
-    /* NOT FOUND */
-    .nf-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+	/* NOT FOUND */
+	.nf-title {
+			font: 200% $font-title;
+			font-weight: bold;
+			letter-spacing: 3px;
+	}
 
-    .nf-header {
-        font: 100% $font-title;
-    }
+	.nf-header {
+			font: 100% $font-title;
+	}
 
-    .copyright-footer {
-        font: 10px $font-body;
-    }
+	.copyright-footer {
+			font: 10px $font-body;
+	}
 
-    .ft-contact p, .ft-social p {
-        line-height: 1rem;
-    }
+	.ft-contact p, .ft-social p {
+			line-height: 1.25rem;
+	}
 
-    .ft-contact h3, .ft-social h3 {
-        line-height: .25rem;
-    }
+	.ft-contact h3, .ft-social h3 {
+			line-height: .25rem;
+	}
 
 
 }

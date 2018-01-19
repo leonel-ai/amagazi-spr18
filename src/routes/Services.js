@@ -39,12 +39,9 @@ class Services extends Component {
 							</div>
 							<div className="srv-text-mob">
 							<h2 className="subtitles-mob">our approach to success</h2>
-							<p>We speak human in all we create and only produce work that invokes curiosity. We inspire the masses to take
-							action, and we never underestimate the profound impact of sensory brand experiences. We create the right space
+							<p>We speak human in all we create and only produce work that invokes curiosity. We create the right space
 							around the fundamentals which drive human behavior—touch, taste, smell, sound, and sight. We also recognize
-							staying ahead in the fast lane of growth and longevity is no easy feat for most businesses.
-							<br/><br/>
-							We meant what we said about not walking the line but creating it.
+							staying ahead in the fast lane of growth and longevity is no easy feat for most businesses — that's where our expertise comes in.
 							<br/><br/>
 							<a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">Let’s connect.</a>
 							</p>
@@ -59,9 +56,9 @@ class Services extends Component {
 							<p>
 								<ul>
 									<li>branding + corporate identity</li>
-									<li>business strategy</li>
 									<li>consumer experience + user journey</li>
 									<li>market research + analysis</li>
+									<li>business strategy</li>
 								</ul>
 								</p>
 						</div>
@@ -71,6 +68,14 @@ class Services extends Component {
 							<p>We set the bar high for ourselves because our moms taught us never to settle. And neither should you.
 								<br/><br/>
 								Invite us to the conversation. <HashLink to="/about#our-standards">We make change happen.</HashLink>
+							</p>
+						</div>
+
+						<div className="srv-box3-mob">
+							<h1 className="srv-title">how we roll</h1>
+							<p>We set the bar high for ourselves because our moms taught us never to settle. And neither should you.
+								<br/><br/>
+								<HashLink to="/about#our-standards">We make change happen.</HashLink>
 							</p>
 						</div>
 					</div>

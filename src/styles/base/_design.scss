@@ -85,7 +85,7 @@ a:hover {
     text-decoration-line: line-through;
 }
 
-.ab-box1-desk a, .ab-box1-mob a, .ab-lead-desk a{
+.ab-box1-desk a, .ab-box1-mob a {
     color: $accent-color;
     text-decoration: none;
 
@@ -94,7 +94,7 @@ a:hover {
     }
 }
 
-.srv-box1-desk a, .srv-box1-mob a, .srv-box3-desk a{
+.srv-box1-desk a, .srv-box1-mob a, .srv-box3-desk a, .srv-box3-mob a{
     color: $accent-color;
     text-decoration: none;
 
@@ -125,7 +125,7 @@ a:hover {
 
 
 @media screen and (max-width: 1135px) {
-    .hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid {
+    .hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid, .priv-grid {
         padding-top: 60px;
         padding-bottom: 0;
         padding-left: 0;
@@ -141,4 +141,5 @@ a:hover {
         text-decoration: none;
         color: $primary-color;
     }
+
 }

@@ -29,7 +29,8 @@ class Footer extends Component {
                     <h3>follow us</h3>
                     <p>
                         <a href="https://www.linkedin.com/company/amagazi/" rel="noopener noreferrer" target="_blank">linkedin</a><br/>
-                        <a href="https://twitter.com/amagazicorp" rel="noopener noreferrer" target="_blank">twitter</a><br/>
+                        <a href="https://twitter.com/amagaziagency" rel="noopener noreferrer" target="_blank">twitter</a><br/>
+                        <a href="https://www.facebook.com/amagazi" rel="noopener noreferrer" target="_blank">facebook</a><br/>
                         <a href="https://www.medium.com/@amagazi" rel="noopener noreferrer" target="_blank">blog</a>
                     </p>
                 </div>

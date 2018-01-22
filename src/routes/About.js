@@ -60,10 +60,9 @@ render() {
 		<div className="ab-lead-desk">
 			<h1 className="ab-title">leadership</h1>
 			<h2 className="subtitles">motivation through confidence and trust</h2>
-			<p>We are idea-creators, entrepreneurs, and problem-solvers. We have a solid understanding of business longevity
-			because we’ve been responsible for our own businesses. We are well-seasoned in our craft and each of us shares
-			an entrepreneurial spirit. And in case you’re wondering,
-			we’ve picked up some awards along the way too.
+			<p>We are idea-creators and problem-solvers. We have a solid understanding of business longevity because
+				we’ve been responsible for our own businesses. We are well-seasoned in our craft, and in case you’re wondering,
+				we’ve picked up some awards along the way too.
 			</p>
 		</div>
 	</div>
@@ -81,8 +80,7 @@ render() {
 		<div className="ab-lead-mob">
 			<h1 className="ab-title">leadership</h1>
 			<h2 className="subtitles">motivation through confidence and trust</h2>
-			<p>We are idea-creators, entrepreneurs, and problem-solvers. We are well-seasoned in our craft and each of us shares
-			an entrepreneurial spirit. And in case you’re wondering, we’ve picked up some awards along the way too.
+			<p>We are idea-creators and problem-solvers. We are well-seasoned in our craft, and in case you’re wondering, we’ve picked up some awards along the way too.
 			</p>
 		</div>
 	</div>

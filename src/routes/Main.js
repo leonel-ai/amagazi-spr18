@@ -4,6 +4,7 @@ import {
     Route, NavLink,
     BrowserRouter as Router,
 } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 import Home from './Home';
 import About from './About';
@@ -16,6 +17,7 @@ class Routes extends Component {
     render() {
         return (
              <Router>
+                 <ScrollToTop>
                 <div className="App">
 
                         <div className="NavBar">
@@ -36,7 +38,7 @@ class Routes extends Component {
                     </Switch>
 
                 </div>
-
+            </ScrollToTop>
             </Router>
         );
     }

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Footer from './Footer';
-import { HashLink } from 'react-router-hash-link';
 import '../styles/Main.scss';
 
 import logo1 from '../assets/logos_01.gif';
@@ -54,12 +53,10 @@ class Services extends Component {
 						<div className="srv-areas-desk">
 							<h1 className="srv-title">areas we ignite</h1>
 							<p>
-								<ul>
 									<li>branding + corporate identity</li>
 									<li>consumer experience + user journey</li>
 									<li>market research + analysis</li>
 									<li>business strategy</li>
-								</ul>
 								</p>
 						</div>
 

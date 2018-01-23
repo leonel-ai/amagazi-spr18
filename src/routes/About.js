@@ -180,7 +180,7 @@ render() {
 
 			<div className="ab-box4-mob">
 					<h1 className="ab-title">careers</h1>
-					<h2 className="subtitles">where teamwork meets amazing</h2>
+					<h2 className="subtitles-mob">where teamwork meets amazing</h2>
 					<p>Connect with us at <a className="joblink" href="mailto:hello@amagazi.com?subject=Hello, amagazi careers!">hello@amagazi.com</a></p>
 			</div>
 	</div>

@@ -1,0 +1,6 @@
+# Rule 1
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /privacy
+
+Sitemap: http://amagazi.com/sitemap.xml

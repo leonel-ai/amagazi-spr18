@@ -15,7 +15,7 @@ class NotFound extends Component {
             <div className="nf-grid">
 
                 <div className="nf-box1">
-                    <h1 className="nf-title">404 NOT FOUND</h1>
+                    <h1 className="nf-title">404 not found</h1>
                 </div>
 
                 <div className="nf-box2-desk">

@@ -27,7 +27,7 @@ class Services extends Component {
 					</p>
 				</div>
 				<div className="srv-box2-desk srv-box2-desk-16x9">
-						<iframe src="https://youtube.com/embed/kyuVkudbjBw?rel=0" className="show-deck" allowFullScreen title="show-deck"></iframe>
+						<iframe src="https://youtube.com/embed/kyuVkudbjBw?rel=0&amp;showinfo=0" className="show-deck" allowFullScreen title="show-deck"></iframe>
 				</div>
 
 					<div className="srv-box1-mob">
@@ -96,7 +96,6 @@ class Services extends Component {
 								<ul className="srv-list">
 									<li>BMW</li>
 									<li>Cadbury</li>
-									<li>Chibebe</li>
 									<li>Direct Energy</li>
 									<li>Exxon</li>
 									<li>Campbell's</li>
@@ -105,6 +104,7 @@ class Services extends Component {
 									<li>Houston Rising</li>
 									<li>OppenheimerFunds</li>
 									<li>Fully Raw</li>
+									<li>Louisiana Economic Development</li>
 									<li>Green Seed Vegan</li>
 								</ul>
 							</div>
@@ -113,10 +113,9 @@ class Services extends Component {
 									<li>Kraft</li>
 									<li>Maxwell House</li>
 									<li>Blue Cross Blue Shield</li>
-									<li>Gutier</li>
+									<li>Gutier Roofing</li>
 									<li>Johnsen Law</li>
 									<li>Markowitz Law</li>
-									<li>Louisiana Economic Development</li>
 									<li>Miller Lite</li>
 									<li>Mission</li>
 									<li>NRG</li>

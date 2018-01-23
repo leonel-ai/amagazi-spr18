@@ -132,19 +132,7 @@
     padding-bottom: 12px;
 }
 
-.ab-box1-mob {
-    display: none;
-}
-
-.ab-box3-mob {
-    display: none;
-}
-
-.ab-box4-mob {
-    display: none;
-}
-
-.ab-std-lead-mob {
+.ab-box1-mob, .ab-box3-mob, .ab-box4-mob, .ab-std-lead-mob, .tap-mob {
     display: none;
 }
 
@@ -279,7 +267,7 @@
         overflow: hidden;
     }
 
-    .ab-box1-desk, .ab-box2-desk, .ab-box3-desk, .ab-box4-desk, .ab-std-lead {
+    .ab-box1-desk, .ab-box2-desk, .ab-box3-desk, .ab-box4-desk, .ab-std-lead, .click-desk {
         display: none;
     }
 
@@ -361,7 +349,7 @@
         align-self: end;
         padding: 0;
         padding-top: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 
     .ab-team .subtitles {
@@ -395,7 +383,7 @@
     .ab-box3-mob h2 {
         grid-column: 1;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 20px;
     }
 
     .ab-box3-mob p {

@@ -12,7 +12,6 @@ import Services from './Services';
 import NotFound from './NotFound';
 import Privacy from './Privacy';
 
-
 class Routes extends Component {
     render() {
         return (
@@ -24,7 +23,7 @@ class Routes extends Component {
                             <NavLink activeStyle={{ color: '#FFC425' }} exact to='/'>amagazi</NavLink>
                             <NavLink activeStyle={{ color: '#FFC425' }} to='/about'>about</NavLink>
                             <NavLink activeStyle={{ color: '#FFC425' }}to='/services'>services</NavLink>
-                            <a href="https://medium.com/@amagazi" rel="noopener noreferrer" target="_blank">gossip</a>
+                            <a href="https://medium.com/@amagazi" rel="noopener noreferrer" target="_blank">the scoop</a>
                         </div>
 
                     <Switch>

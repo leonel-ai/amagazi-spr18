@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Helmet} from "react-helmet";
 import Card from './Card';
 import Footer from './Footer';
 import '../styles/Main.scss';
@@ -11,7 +12,11 @@ state = {expanded: false}
 render() {
 	return (
 	<div className="ab-grid">
-
+		<Helmet>
+			<meta charSet="utf-8"/>
+			<meta name="description" content="who we are | provocateurs with purpose"/>
+			<title>about | amagazi</title>
+		</Helmet>
 	<div className="ab-box1-desk">
 		<h1 className="ab-title">who we are</h1>
 		<h2 className="subtitles">provocateurs with purpose</h2>
@@ -134,7 +139,7 @@ render() {
 
 	<Card title="art director">
 		<h4 className="bio"><span className="bio-name">Chris Firnkoess</span><br/><br/>Chris turns beautiful art into strategic design. His years in the marketing industry have groomed
-		him into one of the most talented creatives in advertising. His fresh perspective on design makes him an invaluable
+		him to become one of the most talented creatives in advertising. His fresh perspective on design makes him an invaluable
 		asset to our team, and to our clients.</h4>
 	</Card>
 

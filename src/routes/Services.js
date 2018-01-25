@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Helmet} from "react-helmet";
 import Footer from './Footer';
 import '../styles/Main.scss';
 
@@ -12,7 +13,11 @@ class Services extends Component {
 	render() {
 		return (
 			<div className="srv-grid">
-
+				<Helmet>
+					<meta charSet="utf-8"/>
+					<meta name="description" content="how we think | branding + corporate identity + UX/UI + market research"/>
+					<title>services | amagazi</title>
+				</Helmet>
 				<div className="srv-box1-desk">
 					<h1 className="srv-title">how we think</h1>
 					<h2 className="subtitles">our approach to success</h2>
@@ -27,14 +32,14 @@ class Services extends Component {
 					</p>
 				</div>
 				<div className="srv-box2-desk srv-box2-desk-16x9">
-						<iframe src="https://youtube.com/embed/kyuVkudbjBw?rel=0&amp;showinfo=0" className="show-deck" allowFullScreen title="show-deck"></iframe>
+						<iframe src="https://www.youtube.com/embed/zlTwDTgQuh0?rel=0&amp;showinfo=0" allowFullScreen title="show-deck"></iframe>
 				</div>
 
 					<div className="srv-box1-mob">
 						<h1 className="srv-title">how we think</h1>
 						<div className="srv-box2-mob">
 							<div className="srv-box2-mobVid srv-box2-mobVid">
-								<iframe src="https://youtube.com/embed/kyuVkudbjBw" allowFullScreen title="show-deck"></iframe>
+								<iframe src="https://www.youtube.com/embed/zlTwDTgQuh0?rel=0&amp;showinfo=0" allowFullScreen title="show-deck"></iframe>
 							</div>
 							<div className="srv-text-mob">
 							<h2 className="subtitles-mob">our approach to success</h2>

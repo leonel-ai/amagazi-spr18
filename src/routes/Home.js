@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 import '../styles/Main.css';
 import homeGif from '../assets/home-desktop.gif';
 import homeMobile from '../assets/home-mobile.gif';
@@ -14,6 +15,10 @@ class Home extends Component {
     render() {
         return (
         <div className="hm-grid">
+            <Helmet>
+                <meta charSet="utf-8"/>
+                <title>amagazi</title>
+            </Helmet>
             <div className="hm-box1">
                 <img className="hm-pg-img" src={homeGif} alt="homepage" />
             </div>

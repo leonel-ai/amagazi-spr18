@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
@@ -57,13 +56,13 @@
     <loc>http://amagazi.com/services</loc>
     <video:video>
       <video:content_loc>
-        https://youtu.be/kyuVkudbjBw
+        https://www.youtube.com/watch?v=zlTwDTgQuh0
       </video:content_loc>
       <video:player_loc allow_embed="yes" autoplay="ap=1">
-        https://youtube.com/embed/kyuVkudbjBw?rel=0&amp;showinfo=0
+        https://www.youtube.com/embed/zlTwDTgQuh0?rel=0&amp;showinfo=0
       </video:player_loc>
       <video:thumbnail_loc>
-        http://i.ytimg.com/vi/kyuVkudbjBw/maxresdefault.jpg
+        http://i.ytimg.com/vi/zlTwDTgQuh0/maxresdefault.jpg
       </video:thumbnail_loc>
       <video:title>amagazi</video:title>
       <video:description>

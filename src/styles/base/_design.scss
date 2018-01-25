@@ -129,7 +129,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 1135px) {
+@media screen and (min-width: 600px) and (max-width: 1135px) {
     .hm-grid, .ab-grid, .srv-grid, .news-grid, .nf-grid, .priv-grid {
         padding-top: 60px;
         padding-bottom: 0;
@@ -142,9 +142,15 @@ a:hover {
     }
 
     .NavBar a {
-        margin-right: 26px;
+        margin-right: 24px;
         text-decoration: none;
         color: $primary-color;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .NavBar a {
+        margin-right: 18.5px;
+    }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Switch,
-    Route, NavLink,
+    Route, NavLink, Redirect,
     BrowserRouter as Router,
 } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
@@ -27,12 +27,12 @@ class Routes extends Component {
                         </div>
 
                     <Switch>
-
+                    <Redirect from='/phone/' to='/'/>
                     <Route exact path="/" render={(props) => <Home {...props} />} />
                     <Route exact path="/about" render={(props) => <About {...props} />} />
                     <Route exact path="/services" render={(props) => <Services {...props} />} />
                     <Route exact path="/privacy" render={(props) => <Privacy {...props} />} />
-                    <Route exact path="/*" render={(props) => <NotFound {...props} />} />
+                    <Route path="/*" render={(props) => <NotFound {...props} />} />
 
                     </Switch>
 

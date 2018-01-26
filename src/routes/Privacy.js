@@ -1,13 +1,28 @@
 import React, {Component} from 'react';
+import {Helmet} from "react-helmet";
+import GA from 'react-google-analytics-lite';
 import Footer from './Footer';
 import '../styles/Main.scss';
 
 
 class Privacy extends Component {
+  constructor(props) {
+		super(props);
+	}
+
+	onGALoad() {
+		ga('create', 'UA-113131904-1', 'auto');//initialize
+		ga('send', 'pageview', '/privacy');
+  }
+
   render() {
     return (
       <div className="priv-grid">
-
+      <Helmet>
+        <meta charSet="utf-8"/>
+        <title>privacy | amagazi</title>
+      </Helmet>
+      <GA onload={ this.onGALoad } />
         <div className="priv-state1">
         <h1 className="priv-title">privacy policy</h1>
           <p>amagazi respects your privacy.

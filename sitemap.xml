@@ -8,6 +8,10 @@
        <image:loc>http://amagazi.com/static/media/home-desktop.0b9bf2f4.gif</image:loc>
        <image:caption>amagazi homepage</image:caption>
     </image:image>
+     <image:image>
+       <image:loc>http://amagazi.com/static/media/home-mobile.b0450561.gif</image:loc>
+       <image:caption>amagazi mobile homepage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://amagazi.com/about</loc>

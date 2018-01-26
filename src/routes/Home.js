@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import GA from 'react-google-analytics-lite';
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
 import '../styles/Main.css';
@@ -6,11 +7,14 @@ import homeGif from '../assets/home-desktop.gif';
 import homeMobile from '../assets/home-mobile.gif';
 
 class Home extends Component {
-    state = {expanded: false}
+    constructor(props) {
+        super(props);
+      }
 
-    componentWillMount() {
-        this.props.history.push('/');
-    }
+      onGALoad() {
+        ga('create', 'UA-113131904-1', 'auto');//initialize
+        ga('send', 'pageview', '/');
+      }
 
     render() {
         return (
@@ -19,6 +23,7 @@ class Home extends Component {
                 <meta charSet="utf-8"/>
                 <title>amagazi</title>
             </Helmet>
+            <GA onload={ this.onGALoad } />
             <div className="hm-box1">
                 <img className="hm-pg-img" src={homeGif} alt="homepage" />
             </div>

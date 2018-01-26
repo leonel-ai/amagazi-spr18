@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Helmet} from "react-helmet";
+import GA from 'react-google-analytics-lite';
 import Footer from './Footer';
 import '../styles/Main.scss';
 
@@ -8,7 +9,14 @@ import logo2 from '../assets/logos_02.gif';
 import logo3 from '../assets/logos_03.gif';
 
 class Services extends Component {
-	state = {expanded: false}
+	constructor(props) {
+		super(props);
+	}
+
+	onGALoad() {
+		ga('create', 'UA-113131904-1', 'auto');//initialize
+		ga('send', 'pageview', '/services');
+	}
 
 	render() {
 		return (
@@ -18,6 +26,7 @@ class Services extends Component {
 					<meta name="description" content="how we think | branding + corporate identity + UX/UI + market research"/>
 					<title>services | amagazi</title>
 				</Helmet>
+				<GA onload={ this.onGALoad } />
 				<div className="srv-box1-desk">
 					<h1 className="srv-title">how we think</h1>
 					<h2 className="subtitles">our approach to success</h2>

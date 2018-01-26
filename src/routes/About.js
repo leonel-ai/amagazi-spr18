@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Helmet} from "react-helmet";
+import GA from 'react-google-analytics-lite';
 import Card from './Card';
 import Footer from './Footer';
 import '../styles/Main.scss';
@@ -7,7 +8,14 @@ import '../styles/Main.scss';
 import aboutPageImg from '../assets/about.png';
 
 class About extends Component {
-state = {expanded: false}
+	constructor(props) {
+		super(props);
+	}
+
+	onGALoad() {
+		ga('create', 'UA-113131904-1', 'auto');//initialize
+		ga('send', 'pageview', '/about');
+	}
 
 render() {
 	return (
@@ -17,6 +25,7 @@ render() {
 			<meta name="description" content="who we are | provocateurs with purpose"/>
 			<title>about | amagazi</title>
 		</Helmet>
+		<GA onload={ this.onGALoad } />
 	<div className="ab-box1-desk">
 		<h1 className="ab-title">who we are</h1>
 		<h2 className="subtitles">provocateurs with purpose</h2>

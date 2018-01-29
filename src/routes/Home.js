@@ -12,8 +12,8 @@ class Home extends Component {
       }
 
       onGALoad() {
-        ga('create', 'UA-113131904-1', 'auto');//initialize
-        ga('send', 'pageview', '/');
+        window.ga('create', 'UA-113131904-1', 'auto');//initialize
+        window.ga('send', 'pageview', '/');
       }
 
     render() {

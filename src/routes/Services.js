@@ -14,8 +14,8 @@ class Services extends Component {
 	}
 
 	onGALoad() {
-		ga('create', 'UA-113131904-1', 'auto');//initialize
-		ga('send', 'pageview', '/services');
+		window.ga('create', 'UA-113131904-1', 'auto');//initialize
+		window.ga('send', 'pageview', '/services');
 	}
 
 	render() {

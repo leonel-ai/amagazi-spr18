@@ -24,6 +24,7 @@ class Services extends Component {
 					<title>services | amagazi</title>
 				</Helmet>
 				<GA onload={ this.onGALoad } />
+
 				<div className="srv-box1-desk">
 					<h1 className="srv-title">how we think</h1>
 					<h2 className="subtitles">our approach to success</h2>

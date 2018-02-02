@@ -20,6 +20,7 @@ class Privacy extends Component {
         <title>privacy | amagazi</title>
       </Helmet>
       <GA onload={ this.onGALoad } />
+
         <div className="priv-state1">
         <h1 className="priv-title">privacy policy</h1>
           <p>amagazi respects your privacy.
@@ -110,7 +111,6 @@ class Privacy extends Component {
           in the subject line and request his or her information be deleted.
           </p>
         </div>
-
 
         <div className="srv-footer pg-footer">
           <Footer />

@@ -23,6 +23,7 @@ render() {
 			<title>about | amagazi</title>
 		</Helmet>
 		<GA onload={ this.onGALoad } />
+
 	<div className="ab-box1-desk">
 		<h1 className="ab-title">who we are</h1>
 		<h2 className="subtitles">provocateurs with purpose</h2>
@@ -199,6 +200,7 @@ render() {
 	<div className="ab-footer pg-footer">
 			<Footer />
 	</div>
+
 </div>
 )}}
 

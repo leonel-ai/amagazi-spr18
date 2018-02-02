@@ -7,9 +7,6 @@ import homeGif from '../assets/home-desktop.gif';
 import homeMobile from '../assets/home-mobile.gif';
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-      }
 
       onGALoad() {
         window.ga('create', 'UA-113131904-1', 'auto');//initialize

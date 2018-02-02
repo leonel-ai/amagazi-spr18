@@ -9,9 +9,6 @@ import logo2 from '../assets/logos_02.gif';
 import logo3 from '../assets/logos_03.gif';
 
 class Services extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	onGALoad() {
 		window.ga('create', 'UA-113131904-1', 'auto');//initialize

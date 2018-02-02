@@ -6,9 +6,6 @@ import '../styles/Main.scss';
 
 
 class Privacy extends Component {
-  constructor(props) {
-		super(props);
-	}
 
 	onGALoad() {
 		window.ga('create', 'UA-113131904-1', 'auto'); //initialize

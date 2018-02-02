@@ -1,24 +1,21 @@
-
-@font-face {
-	font-family: 'ia_writer_duospace';
-	src: url('../assets/titleFont/iawriterduospace-bold-webfont.woff2') format('woff2'),
-				url('../assets/titleFont/iawriterduospace-bold-webfont.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-
-}
-
 @font-face {
 	font-family: 'ia_writer_duospace';
 	src: url('../assets/titleFont/iawriterduospace-regular-webfont.woff2') format('woff2'),
 				url('../assets/titleFont/iawriterduospace-regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
+}
 
+@font-face {
+	font-family: 'Stevie Sans Light';
+	src: url('../assets/titleFont/steviesanslight-webfont.woff2') format('woff2'),
+				url('../assets/titleFont/steviesanslight-webfont.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
 }
 
 $font-title: ia_writer_duospace, Courier, serif; // name var to reuse
-$font-body: Stevie Sans, sans-serif;
+$font-body: Stevie Sans Light, sans-serif;
 
 
 
@@ -43,7 +40,6 @@ p {
 
 .priv-title {
 	font: 200% $font-title;
-	font-weight: bold;
 	letter-spacing: 2px;
 }
 
@@ -59,7 +55,6 @@ p {
 /* ABOUT */
 .ab-title {
 	font: 300% $font-title;
-	font-weight: bold;
 	letter-spacing: 3px;
 }
 
@@ -79,7 +74,6 @@ p {
 /* SERVICES */
 .srv-title {
 	font: 300% $font-title;
-	font-weight: bold;
 	letter-spacing: 1px;
 }
 
@@ -97,7 +91,6 @@ p {
 /* NOT FOUND */
 .nf-title {
 	font: 300% $font-title;
-	font-weight: bold;
 	letter-spacing: 3px;
 }
 
@@ -124,13 +117,13 @@ p {
 
 	.ab-title {
 			font: 200% $font-title;
-			font-weight: bold;
+
 			letter-spacing: 3px;
 	}
 
 	.srv-title {
 		font: 200% $font-title;
-		font-weight: bold;
+
 		letter-spacing: 0px;
 	}
 
@@ -157,7 +150,7 @@ p {
 
 	.priv-title {
 			font: 180% $font-title;
-			font-weight: bold;
+
 			letter-spacing: 2px;
 	}
 
@@ -173,7 +166,7 @@ p {
 	/* ABOUT */
 	.ab-title {
 			font: 200% $font-title;
-			font-weight: bold;
+
 			letter-spacing: 3px;
 	}
 
@@ -203,7 +196,7 @@ p {
 	/* SERVICES */
 	.srv-title {
 			font: 200% $font-title;
-			font-weight: bold;
+
 	}
 
 	.srv-header {
@@ -217,12 +210,7 @@ p {
 
 	/* NOT FOUND */
 	.nf-title {
-			font: 200% $font-title;
-			font-weight: bold;
-	}
-
-	.nf-header {
-			font: 100% $font-title;
+			font: 100% $font-body;
 	}
 
 	.copyright-footer {
@@ -239,8 +227,6 @@ p {
 
 	.priv-title {
 			font: 200% $font-title;
-			font-weight: bold;
 	}
-
 
 }

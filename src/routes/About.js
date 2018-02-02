@@ -8,9 +8,6 @@ import '../styles/Main.scss';
 import aboutPageImg from '../assets/about.png';
 
 class About extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	onGALoad() {
 		window.ga('create', 'UA-113131904-1', 'auto');//initialize

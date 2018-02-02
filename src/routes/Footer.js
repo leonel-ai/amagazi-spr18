@@ -18,7 +18,7 @@ class Footer extends Component {
 
                 <div className="ft-contact">
                     <h3>contact us</h3>
-                    <p>7155 old katy road, s255<br/>
+                    <p>7155 old katy road, ste. s255<br/>
                        houston, tx 77024<br/>
                        832.304.5500<br/>
                        <a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">hello@amagazi.com</a>

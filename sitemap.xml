@@ -16,43 +16,51 @@
   <url>
     <loc>http://amagazi.com/about</loc>
     <image:image>
-       <image:loc>http://amagazi.com/static/media/about.a846a80f.png</image:loc>
-       <image:caption>amagazi office</image:caption>
+       <image:loc>http://amagazi.com/static/media/lobby.9dbbe627.jpg</image:loc>
+       <image:caption>amagazi office lobby desktop</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/media/lobby-m.b47d73b1.jpg</image:loc>
+       <image:caption>amagazi office lobby mobile</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://amagazi.com/static/media/ryan.40ba9308.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/chrisJ.233d94cb.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/miguel.de88ee58.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/tiffany.9c788351.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/shaina.3fdd51c2.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/hillary.d5698a44.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/chrisf.1241af7a.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/leonela.39c4f8ae.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-        <image:image>
+    <image:image>
        <image:loc>http://amagazi.com/static/media/forrest.59d34a43.png</image:loc>
+       <image:caption>amagazi team</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/media/kristian.5067820e.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
   </url>

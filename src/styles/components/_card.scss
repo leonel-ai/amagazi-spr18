@@ -28,8 +28,8 @@ $degree: 90deg;
     h3 {
       padding: 0 2rem;
       position: relative;
-      top: 2rem;
-      font: 128% $font-title;
+      top: 3.5rem;
+      font: 120% $font-title;
     }
 
     h4 {
@@ -152,6 +152,10 @@ $degree: 90deg;
 
   .Card:nth-child(9) {
     .Card-Front { background: url('../assets/team/forrest.png');}
+  }
+
+  .Card:nth-child(10) {
+    .Card-Front { background: url('../assets/team/kristian.png');}
   }
 
 }

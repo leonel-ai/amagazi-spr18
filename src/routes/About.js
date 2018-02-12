@@ -5,7 +5,8 @@ import Card from './Card';
 import Footer from './Footer';
 import '../styles/Main.scss';
 
-import aboutPageImg from '../assets/about.png';
+import aboutImg from '../assets/lobby.jpg';
+import aboutImgMobile from '../assets/lobby-m.jpg';
 
 class About extends Component {
 
@@ -38,7 +39,7 @@ render() {
 
 
 	<div className="ab-box2-desk ab-box2-desk-16x9">
-		<img className="ab-pg-img-desk" src={aboutPageImg} alt="about-desktop" />
+		<img className="ab-pg-img-desk" src={aboutImg} alt="about-desktop" />
 	</div>
 
 
@@ -46,7 +47,7 @@ render() {
 		<h1 className="ab-title">who we are</h1>
 		<div className="ab-box2-mob">
 			<div className="ab-box2-mobImg ab-box2-mobImg">
-				<img className="ab-pg-img-mob" src={aboutPageImg} alt="about-mobile"/>
+				<img className="ab-pg-img-mob" src={aboutImgMobile} alt="about-mobile"/>
 			</div>
 				<div className="ab-text-mob">
 					<h2 className="subtitles-mob">provocateurs with purpose</h2>
@@ -118,22 +119,22 @@ render() {
 		clients appreciate. And his thought-driven leadership is one that our team aspires to model each day.</h4>
 	</Card>
 
-	<Card title="executive creative director">
+	<Card title="exec. creative director">
 		<h4 className="bio"><span className="bio-name">Miguel Nogueras</span><br/><br/>Miguel has helped shape the ad industry for more than 25 years.
 		He’s seen it all. He keeps our team strategic and forward-thinking and is steadfast
 		in his pursuit of excellence and innovation through communication. Miguel never
 		fails to capture the human connection with his unique storytelling approach.</h4>
 	</Card>
 
-	<Card title="executive vice president">
+	<Card title="exec. vice president">
 		<h4 className="bio"><span className="bio-name">Tiffany Hobson</span><br/><br/>Tiffany is a seasoned international player in the business and advertising
 		world. She knows how to simplify and take on complex business problems while turning them
 		into pure gold. She has developed proven business performance strategies throughout her
 		career and has an intrinsic flexibility with all things tech.</h4>
 	</Card>
 
-	<Card title="senior copywriter">
-		<h4 className="bio"><span className="bio-name">Shaina Huntsberry</span><br/><br/>Shaina writes stories you want to share and headlines you want to embody.
+	<Card title="sr. copywriter">
+		<h4 className="bio"><span className="bio-name">Sha&iacute;na Huntsberry</span><br/><br/>Sha&iacute;na writes stories you want to share and headlines you want to embody.
 		She empowers brands with profound narratives that inspire the masses to action. She speaks every
 		language of the brands we work with and uses that language to activate success.</h4>
 	</Card>
@@ -160,6 +161,12 @@ render() {
 		<h4 className="bio"><span className="bio-name">Forrest McBride</span><br/><br/>Forrest is a video production genius. He has worked on major movies and television series
 		and knows how to articulate narratives through stunning visuals. His work will transport you into an awe-inspiring
 		visual experience.</h4>
+	</Card>
+
+	<Card title="jr. account executive">
+		<h4 className="bio"><span className="bio-name">Kristian Valent&iacute;n</span><br/><br/>Krist&iacute;an is equal parts tenacious and resourceful. His expertise stems from his background
+		in coordinating architecture and fashion showcase events in New York City. Since then, he’s mastered the art of building genuine relationships to foster new business.
+		He knows potential when he sees it and has a knack for networking his way into valuable, strategic partnerships.</h4>
 	</Card>
 	</div>
 

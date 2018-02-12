@@ -28,7 +28,7 @@ class Services extends Component {
 				<div className="srv-box1-desk">
 					<h1 className="srv-title">how we think</h1>
 					<h2 className="subtitles">our approach to success</h2>
-					<p>We speak human in all we create and only produce work that invokes curiosity. We inspire the masses to take
+					<p>We speak human in all we create and only produce work that evokes curiosity. We inspire the masses to take
 					action, and we never underestimate the profound impact of sensory brand experiences. We create the right space
 					around the fundamentals which drive human behavior — touch, taste, smell, sound, and sight. We also recognize
 					staying ahead in the fast lane of growth and longevity is no easy feat for most businesses.
@@ -50,7 +50,7 @@ class Services extends Component {
 							</div>
 							<div className="srv-text-mob">
 							<h2 className="subtitles-mob">our approach to success</h2>
-							<p>We speak human in all we create and only produce work that invokes curiosity. We create the right space
+							<p>We speak human in all we create and only produce work that evokes curiosity. We create the right space
 							around the fundamentals which drive human behavior — touch, taste, smell, sound, and sight. We also recognize
 							staying ahead in the fast lane of growth and longevity is no easy feat for most businesses — that's where our expertise comes in.
 							<br/><br/>

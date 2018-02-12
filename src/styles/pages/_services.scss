@@ -228,6 +228,7 @@ iframe {
         display: grid;
         grid-column: 1 / 3;
         align-self: center;
+        padding-top: 20px;
     }
 
     .srv-box2-mob {
@@ -255,7 +256,8 @@ iframe {
     }
 
     .srv-text-mob h2 {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+        padding-top: 10px;
     }
 
     .srv-text-mob {
@@ -278,6 +280,10 @@ iframe {
         padding-right: 30px;
     }
 
+    .srv-box3-mob > p{
+        margin-top: 0;
+    }
+
     .srv-box3-mob .srv-title {
         padding-left: 0;
     }
@@ -286,21 +292,18 @@ iframe {
         padding-left: 0;
     }
 
-    .srv-box3-desk {
-        padding-top: 20px;
-        padding-left: 30px;
+    .srv-areas-desk p{
+        padding-top: 0;
     }
 
-    .srv-box3-desk p{
-        padding-left: 10px;
-        padding-right: 90px;
+    .srv-areas-desk ul{
+        padding-left: 0;
     }
 
     .srv-cases {
         grid-column: 1;
         padding: 0;
         align-self: center;
-        padding-top: 20px;
     }
 
     .srv-grid-cases {

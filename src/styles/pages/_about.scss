@@ -275,6 +275,7 @@
         display: grid;
         grid-column: 1 / 3;
         align-self: center;
+        padding-top: 20px;
     }
 
     .ab-box2-mob {
@@ -304,15 +305,15 @@
     .ab-std-lead-mob {
         display: grid;
         grid-column: 1 / 3;
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .ab-std-mob {
         padding-top: 0px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 
     .ab-std-mob .ab-title {
@@ -384,6 +385,8 @@
         grid-column: 1;
         padding-left: 30px;
         padding-right: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .ab-box3-mob p {
@@ -402,6 +405,8 @@
         grid-column: 1;
         padding-left: 30px;
         padding-right: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .ab-box4-mob p {

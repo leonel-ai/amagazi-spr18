@@ -5,6 +5,7 @@
   "homepage": "https://amagazi.com/",
   "dependencies": {
     "node-sass-chokidar": "0.0.3",
+    "normalize.css": "^8.0.0",
     "npm-run-all": "^4.1.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",

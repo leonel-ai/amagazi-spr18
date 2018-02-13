@@ -10,7 +10,6 @@
 	font-family: 'Stevie Sans Light';
 	src: url('../assets/titleFont/steviesanslight-webfont.woff2') format('woff2'),
 				url('../assets/titleFont/steviesanslight-webfont.woff') format('woff');
-	font-weight: 200;
 	font-style: normal;
 }
 
@@ -20,14 +19,16 @@ $font-body: Stevie Sans Light, sans-serif;
 
 
 body {
-	font: 100% $font-title;
-	-webkit-font-smoothing: subpixel-antialiased;
+	font: 100% $font-body;
+	-webkit-font-smoothing: auto !important;
+	font-weight:400;
 }
 
 p {
 	font: 100% $font-body;
 	letter-spacing: 1px;
 	line-height: 28px;
+	font-weight:400;
 }
 
 .subtitles {

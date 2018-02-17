@@ -24,7 +24,7 @@ body {
 	font-weight:400;
 }
 
-p {
+p, .srv-areas-desk ul li {
 	font: 100% $font-body;
 	letter-spacing: 1px;
 	line-height: 28px;
@@ -60,10 +60,6 @@ p {
 	letter-spacing: 3px;
 }
 
-.ab-header {
-	font: 120% $font-title;
-}
-
 .cards > .Card {
 	font: 85% $font-title;
 	letter-spacing: 2px;
@@ -79,16 +75,67 @@ p {
 	letter-spacing: 1px;
 }
 
-.srv-header {
-	font: 120% $font-title;
+/* WORK  */
+.work-title {
+	font: 300% $font-title;
+	letter-spacing: 1px;
 }
 
-.srv-list {
+.work-list {
 	font: 100% $font-body;
 	letter-spacing: 1px;
 	line-height: 26px;
 }
 
+.cases {
+	.Collapsible__trigger {
+		font: 135% $font-title;
+		letter-spacing: 3px;
+
+		&:after {
+			content: '\2715';
+			color: $accent-color;
+			position: absolute;
+			right: 240px;
+			margin-top: -34px;
+			display: block;
+			transform: rotateZ(45deg);
+			-o-transform: rotateZ(45deg);
+			-moz-transform: rotateZ(45deg);
+			-webkit-transform: rotateZ(45deg);
+			transition: transform 0.3s;
+			-o-transition: transform 0.3s;
+			-moz-transition: transform 0.3s;
+			-webkit-transition: transform 0.3s;
+		}
+
+		&.is-open {
+			&:after {
+				transform: rotateZ(180deg);
+				-o-transform: rotateZ(180deg);
+				-moz-transform: rotateZ(180deg);
+				-webkit-transform: rotateZ(180deg);
+			}
+		}
+
+		&.is-disabled {
+			opacity: 0.5;
+		}
+	}
+
+	li {
+		line-height: 2em;
+	}
+
+	.Collapsible__contentOuter {
+		padding-bottom: 12px;
+		border-bottom: 1px solid white;
+	}
+
+	.Collapsible__trigger.is-open ~ .Collapsible__contentOuter{
+		border: none !important;
+	}
+}
 
 /* NOT FOUND */
 .nf-title {
@@ -104,7 +151,7 @@ p {
 @media screen and (min-width: 736px) and (max-width: 1366px) {
 	/* HOME */
 	.hm-title {
-	font: 344% $font-title;
+		font: 344% $font-title;
 	}
 
 	.subtitles {
@@ -119,13 +166,26 @@ p {
 
 	.ab-title {
 			font: 200% $font-title;
-
 			letter-spacing: 3px;
 	}
 
 	.srv-title {
 		font: 200% $font-title;
+		letter-spacing: 0px;
+	}
 
+	.work-title {
+		font: 200% $font-title;
+		letter-spacing: 0px;
+	}
+
+	.Collapsible__trigger {
+			font: 125% $font-title;
+			letter-spacing: 1.2px;
+	}
+
+	.priv-title {
+		font: 200% $font-title;
 		letter-spacing: 0px;
 	}
 
@@ -134,7 +194,7 @@ p {
 
 @media screen and (max-width: 1135px) {
 
-	p {
+	p, .srv-areas-desk ul li {
 			font: 16px $font-body;
 			letter-spacing: .5px;
 			line-height: 24px;
@@ -150,9 +210,20 @@ p {
 			letter-spacing: 1.2px;
 	}
 
+	.NavMobile {
+		.Collapsible__trigger {
+			font: 18px $font-body;
+			letter-spacing: .5px;
+	}
+
+	li {
+		font: 300% $font-title;
+		letter-spacing: 1.2px;
+	}
+}
+
 	.priv-title {
 			font: 180% $font-title;
-
 			letter-spacing: 2px;
 	}
 
@@ -161,19 +232,10 @@ p {
 			font: 200% $font-title;
 	}
 
-	.hm-header {
-			font: 100% $font-title;
-	}
-
 	/* ABOUT */
 	.ab-title {
 			font: 200% $font-title;
-
 			letter-spacing: 3px;
-	}
-
-	.ab-header {
-			font: 100% $font-title;
 	}
 
 	.ab-std-lead-mob .subtitles {
@@ -198,17 +260,69 @@ p {
 	/* SERVICES */
 	.srv-title {
 			font: 200% $font-title;
-
 	}
 
-	.srv-header {
-			font: 100% $font-title;
+	/* WORK */
+	.work-title {
+			font: 200% $font-title;
 	}
 
-	.srv-list {
+	.cases {
+		.Collapsible__trigger {
+			font: 110% $font-title;
+			letter-spacing: 1.2px;
+
+			&:after {
+				right: 48px;
+				margin-top: -32px;
+				display: block;
+				transform: rotateZ(45deg);
+				-o-transform: rotateZ(45deg);
+				-moz-transform: rotateZ(45deg);
+				-webkit-transform: rotateZ(45deg);
+				transition: transform 0.3s;
+				-o-transition: transform 0.3s;
+				-moz-transition: transform 0.3s;
+				-webkit-transition: transform 0.3s;
+			}
+
+			&.is-open {
+				&:after {
+					transform: rotateZ(180deg);
+					-o-transform: rotateZ(180deg);
+					-moz-transform: rotateZ(180deg);
+					-webkit-transform: rotateZ(180deg);
+				}
+
+				.Collapsible__contentOuter {
+					border-bottom: 1px solid white;
+				}
+			}
+
+			&.is-disabled {
+				opacity: 0.5;
+			}
+		}
+
+		li {
+			line-height: 2.4em;
+			width: 90%;
+		}
+
+		.Collapsible__contentOuter {
+			padding-bottom: 0px;
+		}
+	}
+
+	.work-list {
 			letter-spacing: 1px;
 			line-height: 26px;
 	}
+
+	/* PRIVACY */
+	.priv-title {
+		font: 200% $font-title;
+}
 
 	/* NOT FOUND */
 	.nf-title {
@@ -225,10 +339,6 @@ p {
 
 	.ft-contact h3, .ft-social h3 {
 			line-height: .25rem;
-	}
-
-	.priv-title {
-			font: 200% $font-title;
 	}
 
 }

@@ -8,6 +8,7 @@
     "npm-run-all": "^4.1.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-collapsible": "^2.0.4",
     "react-dom": "^16.2.0",
     "react-google-analytics-lite": "0.0.1",
     "react-helmet": "^5.2.0",
@@ -16,7 +17,7 @@
     "react-scripts": "1.0.17",
     "react-transition-group": "^1.2.1",
     "sanitize.css": "^5.0.0",
-    "semantic-ui-react": "^0.77.1",
+    "semantic-ui-react": "^0.77.2",
     "webfontloader": "^1.6.28"
   },
   "scripts": {

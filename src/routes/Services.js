@@ -4,10 +4,6 @@ import GA from 'react-google-analytics-lite';
 import Footer from './Footer';
 import '../styles/Main.scss';
 
-import logo1 from '../assets/logos_01.gif';
-import logo2 from '../assets/logos_02.gif';
-import logo3 from '../assets/logos_03.gif';
-
 class Services extends Component {
 
 	onGALoad() {
@@ -45,7 +41,7 @@ class Services extends Component {
 					<div className="srv-box1-mob">
 						<h1 className="srv-title">how we think</h1>
 						<div className="srv-box2-mob">
-							<div className="srv-box2-mobVid srv-box2-mobVid">
+							<div className="srv-box2-mobVid">
 								<iframe src="https://www.youtube.com/embed/zlTwDTgQuh0?rel=0&amp;showinfo=0" allowFullScreen title="show-deck"></iframe>
 							</div>
 							<div className="srv-text-mob">
@@ -64,14 +60,13 @@ class Services extends Component {
 					<div className="srv-grid-mid">
 						<div className="srv-areas-desk">
 							<h1 className="srv-title">areas we ignite</h1>
-							<p>
 								<ul>
 									<li>branding + corporate identity</li>
+									<li>media planning + digital strategy</li>
 									<li>consumer experience + user journey</li>
 									<li>market research + analysis</li>
 									<li>business strategy</li>
 								</ul>
-								</p>
 						</div>
 
 						<div className="srv-box3-desk">
@@ -91,71 +86,6 @@ class Services extends Component {
 						</div>
 					</div>
 
-
-					<div className="srv-cases">
-							<h1 className="srv-title">experience</h1>
-					</div>
-
-					<div className="srv-grid-cases">
-							<div className="brand">
-								<img src={logo1} alt="logo1"/>
-							</div>
-							<div className="brand">
-								<img src={logo2} alt="logo2" />
-							</div>
-							<div className="brand">
-								<img src={logo3} alt="logo3"/>
-							</div>
-							<div className="brand">
-								<ul className="srv-list">
-									<li>BMW</li>
-									<li>Cadbury</li>
-									<li>Direct Energy</li>
-									<li>Exxon</li>
-									<li>Campbell's</li>
-									<li>Pepperidge Farm</li>
-									<li>General Mills</li>
-									<li>Houston Rising</li>
-									<li>OppenheimerFunds</li>
-									<li>Fully Raw</li>
-									<li>Louisiana Economic Development</li>
-									<li>Green Seed Vegan</li>
-								</ul>
-							</div>
-							<div className="brand">
-								<ul className="srv-list">
-									<li>Kraft</li>
-									<li>Maxwell House</li>
-									<li>Blue Cross Blue Shield</li>
-									<li>Gutier Roofing</li>
-									<li>Johnsen Law</li>
-									<li>Markowitz Law</li>
-									<li>Miller Lite</li>
-									<li>Mission</li>
-									<li>NRG</li>
-									<li>Quilted Northern</li>
-									<li>Monster Worldwide, Inc.</li>
-									<li>SCFD</li>
-								</ul>
-							</div>
-							<div className="brand">
-								<ul className="srv-list">
-									<li>Hard Rock Casino + Resort</li>
-									<li>Reliant Energy</li>
-									<li>Rich's Foods</li>
-									<li>Sonic</li>
-									<li>Texaco</li>
-									<li>Tyson</li>
-									<li>VW</li>
-									<li>Walmart</li>
-									<li>Saint Theresa Catholic School</li>
-									<li>Webb Gallery</li>
-									<li>Krewe du Optic</li>
-									<li>Old New Orleans Rum</li>
-								</ul>
-							</div>
-
-					</div> {/* end xp */}
 
 					<div className="srv-footer pg-footer">
 							<Footer />

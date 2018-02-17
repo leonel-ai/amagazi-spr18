@@ -1,6 +1,5 @@
 /* services page */
 
-
 .srv-grid {
     display: grid;
     box-sizing: border-box;
@@ -24,8 +23,8 @@
 .srv-box2-desk {
     grid-column: 2;
     padding-top: 12px;
-    position: relative;
     height: 0;
+    position: relative;
     overflow: hidden;
 }
 
@@ -38,7 +37,7 @@
 }
 
 .srv-box2-desk-16x9 {
-    padding-bottom: 56.25%;
+    padding-bottom: 60%;
 }
 
 .srv-grid-mid {
@@ -64,55 +63,11 @@
     justify-items: center;
     padding-left: 28px;
     padding-right: 20px;
+    padding-bottom: 60px;
 }
 
 .srv-box3-desk p {
-    padding-top: 30px;
-}
-
-.srv-cases {
-    grid-column: 1 / 3;
-    padding-left: 28px;
-    align-self: end;
-    padding-top: 120px;
-    padding-bottom: 0px;
-}
-
-.srv-grid-cases {
-    display: grid;
-    grid-column: 1 / 3;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 0;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: black;
-}
-
-/* brands */
-.brand {
-    &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-        padding: 0;
-        align-self: center;
-        justify-self: center;
-    }
-
-    &:nth-child(1) img, &:nth-child(2) img, &:nth-child(3) img{
-        max-width: 512px;
-    }
-}
-
-.brand {
-
-    &:nth-child(4), &:nth-child(5), &:nth-child(6) {
-        justify-self: center;
-        align-self: start;
-        text-align: left;
-        padding: 0px;
-    }
-
-    &:nth-child(4) {
-        padding-right: 60px;
-    }
+    padding-top: 0px;
 }
 
 .srv-list {
@@ -155,55 +110,38 @@ iframe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column: 1 / 3;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 
-    .srv-areas-desk, .srv-box3-desk, .srv-cases {
-        padding-top: 40px;
-    }
-
-    .srv-cases {
-        grid-column: 1 / 3;
-        padding-left: 28px;
-        align-self: end;
+    .srv-box1-desk {
         padding-bottom: 40px;
     }
 
-   .srv-cases h1 {
-        padding-bottom: 0px;
+    .srv-box1-desk .srv-title {
+        padding-bottom: 0;
     }
 
-    .srv-grid-cases {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 0;
-        justify-self: center;
+    .srv-areas-desk, .srv-box3-desk {
         padding-top: 40px;
-        padding-bottom: 80px;
     }
 
-    /* brands */
-.brand {
-    &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-        padding: 0;
+    .srv-grid-mid {
+        padding-bottom: 20px;
+    }
+
+    .srv-box1-desk h2 {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .srv-box2-desk {
         align-self: center;
-        justify-self: center;
     }
 
-    &:nth-child(1) img, &:nth-child(2) img, &:nth-child(3) img{
-        max-width: 428px;
+    .srv-box3-desk p {
+        padding-top: 0px;
     }
-}
-
-.brand {
-
-     &:nth-child(4), &:nth-child(5), &:nth-child(6) {
-        justify-self: center;
-        align-self: start;
-        padding: 0px;
-    }
-}
 
     .srv-footer {
         text-align: center;
@@ -241,6 +179,7 @@ iframe {
         position: relative;
         height: 0;
         overflow: hidden;
+        padding-bottom: 50%;
     }
 
     .srv-box2-mobVid iframe {
@@ -249,10 +188,6 @@ iframe {
         left: 0;
         width: 100%;
         height: 100%;
-    }
-
-    .srv-box2-mobVid{
-        padding-bottom: 50%;
     }
 
     .srv-text-mob h2 {
@@ -271,6 +206,7 @@ iframe {
         display: initial;
         padding: 0;
         padding-top: 0px;
+        padding-bottom: 12px;
     }
 
     .srv-box3-mob {
@@ -300,48 +236,8 @@ iframe {
         padding-left: 0;
     }
 
-    .srv-cases {
-        grid-column: 1;
-        padding: 0;
-        align-self: center;
-    }
-
-    .srv-grid-cases {
-        display: grid;
-        grid-column: 1 / 3;
-        grid-template-columns: 1fr;
-        padding: 0;
-        padding-bottom: 20px;
-        justify-self: center;
-    }
-
     iframe {
         border: none;
-    }
-
-/* brands */
-.brand {
-    &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-        padding: 0;
-        align-self: start;
-        justify-self: start;
-    }
-    &:nth-child(1) img, &:nth-child(2) img, &:nth-child(3) img {
-        max-width: 400px;
-    }
-}
-
-.brand {
-    &:nth-child(4), &:nth-child(5), &:nth-child(6) {
-        justify-self: left;
-        align-self: start;
-        padding: 0px;
-    }
-}
-
-    .srv-list {
-        padding-left: 60px;
-        padding-right: 10px;
     }
 
     .srv-title {

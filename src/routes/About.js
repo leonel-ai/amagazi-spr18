@@ -46,7 +46,7 @@ render() {
 	<div className="ab-box1-mob">
 		<h1 className="ab-title">who we are</h1>
 		<div className="ab-box2-mob">
-			<div className="ab-box2-mobImg ab-box2-mobImg">
+			<div className="ab-box2-mobImg">
 				<img className="ab-pg-img-mob" src={aboutImgMobile} alt="about-mobile"/>
 			</div>
 				<div className="ab-text-mob">
@@ -164,9 +164,9 @@ render() {
 	</Card>
 
 	<Card title="jr. account executive">
-		<h4 className="bio"><span className="bio-name">Kristian Valent&iacute;n</span><br/><br/>Krist&iacute;an is equal parts tenacious and resourceful. His expertise stems from his background
-		in coordinating architecture and fashion showcase events in New York City. Since then, he’s mastered the art of building genuine relationships to foster new business.
-		He knows potential when he sees it and has a knack for networking his way into valuable, strategic partnerships.</h4>
+		<h4 className="bio"><span className="bio-name">Kristian Valent&iacute;n</span><br/><br/>Krist&iacute;an is our client management rock star. He has the impressive ability
+		to seamlessly create the intersection of business strategy and business success. His extensive background organizing major PR events in New York City has proven beneficial
+		in his approach to the business landscape and has furthered his capacity to mobilize the perfect opportunities with the right timing for all of our clients.</h4>
 	</Card>
 	</div>
 

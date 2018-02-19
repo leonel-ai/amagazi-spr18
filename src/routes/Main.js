@@ -6,13 +6,15 @@ import {
 } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import Collapsible from 'react-collapsible';
+import asyncComponent from './AsyncComponent';
 
-import Home from './Home';
-import About from './About';
-import Services from './Services';
-import Work from './Work';
-import NotFound from './NotFound';
-import Privacy from './Privacy';
+const AsyncHome = asyncComponent(() => import('./Home'));
+const AsyncAbout = asyncComponent(() => import('./About'));
+const AsyncServices = asyncComponent(() => import('./Services'));
+const AsyncWork = asyncComponent(() => import('./Work'));
+const AsyncPrivacy = asyncComponent(() => import('./Privacy'));
+const AsyncNotFound = asyncComponent(() => import('./NotFound'));
+
 
 class Routes extends Component {
 
@@ -55,13 +57,12 @@ class Routes extends Component {
 
 				<Switch>
 					<Redirect from='/phone/' to='/'/>
-					<Route exact path="/" render={(props) => <Home {...props} />} />
-					<Route exact path="/about" render={(props) => <About {...props} />} />
-					<Route exact path="/services" render={(props) => <Services {...props} />} />
-					<Route exact path="/work" render={(props) => <Work {...props} />} />
-					<Route exact path="/privacy" render={(props) => <Privacy {...props} />} />
-					<Route path="/*" render={(props) => <NotFound {...props} />} />
-
+					<Route exact path='/' component={AsyncHome} />
+					<Route exact path='/about' component={AsyncAbout} />
+					<Route exact path='/services' component={AsyncServices} />
+					<Route exact path='/work' component={AsyncWork} />
+					<Route exact path='/privacy' component={AsyncPrivacy} />
+					<Route path='/*' component={AsyncNotFound} />
 				</Switch>
 
 				</div>
@@ -73,3 +74,19 @@ class Routes extends Component {
 
 
 export default Routes;
+
+
+// import Home from './Home';
+// import About from './About';
+// import Services from './Services';
+// import Work from './Work';
+// import NotFound from './NotFound';
+// import Privacy from './Privacy';
+
+// <Route exact path='/' component={AsyncHome} />
+// <Route exact path="/" render={(props) => <Home {...props} />} />
+// <Route exact path="/about" render={(props) => <About {...props} />} />
+// <Route exact path="/services" render={(props) => <Services {...props} />} />
+// <Route exact path="/work" render={(props) => <Work {...props} />} />
+// <Route exact path="/privacy" render={(props) => <Privacy {...props} />} />
+// <Route path="/*" render={(props) => <NotFound {...props} />} />

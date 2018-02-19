@@ -81,9 +81,16 @@
         amagazi show reel
       </video:description>
     </video:video>
+  </url>
+  <url>
+    <loc>http://amagazi.com/work</loc>
     <image:image>
-       <image:loc>http://amagazi.com/static/media/logos_01.f7794b46.gif</image:loc>
-       <image:caption>amagazi clients</image:caption>
+       <image:loc>http://amagazi.com/static/media/gutier.d9dbf1fb.gif</image:loc>
+       <image:caption>amagazi latest project</image:caption>
+    </image:image>
+        <image:image>
+       <image:loc>http://amagazi.com/static/media/gutier-m.817422cf.gif</image:loc>
+       <image:caption>amagazi latest project mobile</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://amagazi.com/static/media/logos_02.907a45f6.gif</image:loc>

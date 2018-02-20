@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 import {
     Switch,
-    Route, NavLink, Link, Redirect,
+    Route, NavLink, Redirect,
     BrowserRouter as Router,
 } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import Collapsible from 'react-collapsible';
-import asyncComponent from './AsyncComponent';
 
-const AsyncHome = asyncComponent(() => import('./Home'));
-const AsyncAbout = asyncComponent(() => import('./About'));
-const AsyncServices = asyncComponent(() => import('./Services'));
-const AsyncWork = asyncComponent(() => import('./Work'));
-const AsyncPrivacy = asyncComponent(() => import('./Privacy'));
-const AsyncNotFound = asyncComponent(() => import('./NotFound'));
-
+import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Work from './Work';
+import NotFound from './NotFound';
+import Privacy from './Privacy';
 
 class Routes extends Component {
 
@@ -45,10 +43,10 @@ class Routes extends Component {
 					<Collapsible trigger="menu" transitionTime={300}>
 						<div className="menu-content">
 							<ul>
-							<li><Link activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} exact to='/'>amagazi</Link></li>
-							<li><Link activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} to='/about'>about</Link></li>
-							<li><Link activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} to='/services'>services</Link></li>
-							<li><Link activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} to='/work'>work</Link></li>
+							<li><NavLink activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} exact to='/'>amagazi</NavLink></li>
+							<li><NavLink activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} to='/about'>about</NavLink></li>
+							<li><NavLink activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} to='/services'>services</NavLink></li>
+							<li><NavLink activeStyle={{ color: '#FFC425' }} onClick={this.burgerToggle} to='/work'>work</NavLink></li>
 							<li><a href="https://medium.com/@amagazi" rel="noopener noreferrer" target="_blank">the scoop</a></li>
 							</ul>
 						</div>
@@ -57,12 +55,12 @@ class Routes extends Component {
 
 				<Switch>
 					<Redirect from='/phone/' to='/'/>
-					<Route exact path='/' component={AsyncHome} />
-					<Route exact path='/about' component={AsyncAbout} />
-					<Route exact path='/services' component={AsyncServices} />
-					<Route exact path='/work' component={AsyncWork} />
-					<Route exact path='/privacy' component={AsyncPrivacy} />
-					<Route path='/*' component={AsyncNotFound} />
+					<Route exact path="/" render={(props) => <Home {...props} />} />
+					<Route exact path="/about" render={(props) => <About {...props} />} />
+					<Route exact path="/services" render={(props) => <Services {...props} />} />
+					<Route exact path="/work" render={(props) => <Work {...props} />} />
+					<Route exact path="/privacy" render={(props) => <Privacy {...props} />} />
+					<Route path="/*" render={(props) => <NotFound {...props} />} />
 				</Switch>
 
 				</div>
@@ -74,19 +72,3 @@ class Routes extends Component {
 
 
 export default Routes;
-
-
-// import Home from './Home';
-// import About from './About';
-// import Services from './Services';
-// import Work from './Work';
-// import NotFound from './NotFound';
-// import Privacy from './Privacy';
-
-// <Route exact path='/' component={AsyncHome} />
-// <Route exact path="/" render={(props) => <Home {...props} />} />
-// <Route exact path="/about" render={(props) => <About {...props} />} />
-// <Route exact path="/services" render={(props) => <Services {...props} />} />
-// <Route exact path="/work" render={(props) => <Work {...props} />} />
-// <Route exact path="/privacy" render={(props) => <Privacy {...props} />} />
-// <Route path="/*" render={(props) => <NotFound {...props} />} />

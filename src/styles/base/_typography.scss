@@ -128,7 +128,7 @@ p, .srv-areas-desk ul li {
 	}
 
 	.Collapsible__contentOuter {
-		padding-bottom: 12px;
+		padding-bottom: 1px;
 		border-bottom: 1px solid white;
 	}
 
@@ -194,10 +194,16 @@ p, .srv-areas-desk ul li {
 
 @media screen and (max-width: 1135px) {
 
-	p, .srv-areas-desk ul li {
+	p, .srv-areas-desk ul li{
 			font: 16px $font-body;
 			letter-spacing: .5px;
 			line-height: 24px;
+	}
+
+	.cases .details li {
+		font: 16px $font-body;
+		letter-spacing: .5px;
+		line-height: 24px;
 	}
 
 	h1 {
@@ -311,6 +317,10 @@ p, .srv-areas-desk ul li {
 
 		.Collapsible__contentOuter {
 			padding-bottom: 0px;
+		}
+
+		.work-title {
+			line-height: 1.2em;
 		}
 	}
 

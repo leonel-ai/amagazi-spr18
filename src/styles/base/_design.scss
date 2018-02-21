@@ -128,8 +128,12 @@ a:hover {
 }
 
 .cases {
-    p {
-    color: $second-color;
+    p, .subtitles {
+        color: $second-color;
+    }
+
+    .details li {
+        color: $second-color;
     }
 }
 
@@ -235,5 +239,5 @@ a:hover {
 			text-decoration-style: initial;
 			text-decoration-color: initial;
 			color: $accent-color;
-		}
-	}
+				}
+    }

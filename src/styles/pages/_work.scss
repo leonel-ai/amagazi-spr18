@@ -65,6 +65,10 @@
     cursor: pointer;
   }
 
+  .subtitles {
+    margin-bottom: 0;
+  }
+
   .details {
     height: auto;
     background-color: $primary-color;
@@ -72,9 +76,26 @@
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
     p {
-    padding: 30px;
+      padding-left: 100px;
+    }
+  }
+
+  .detail-sections {
+    max-width: 85%;
+
+    ul {
+      padding-left: 0;
+      padding-top: 14px;
+    }
+
+    li {
+      margin-left: 100px;
+      margin-right: 0;
+      margin-bottom: 0;
     }
   }
 }
@@ -143,10 +164,6 @@
   .work-recent-desk h2 {
     padding-top: 12px;
     padding-bottom: 12px;
-  }
-
-  .work-recentImg-desk {
-    align-self: center;
   }
 
   .work-grid-cases {
@@ -259,12 +276,32 @@
     padding-right: 0px;
   }
 
+  .subtitles {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   .details {
+
     p {
-    padding: 10px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     }
     height: 312px;
     overflow-y: scroll !important;
+  }
+
+  .detail-sections {
+    max-width: 100%;
+
+    ul {
+      padding-top: 12px;
+      padding-right: 26px;
+    }
+
+    li {
+      margin-left: 20px;
+    }
   }
 }
 

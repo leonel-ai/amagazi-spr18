@@ -154,7 +154,7 @@ class Work extends Component {
               <p className="work-title">a future worth saving</p>
 
                 <p className="subtitles">opportunity</p>
-                <p>Develop a campaign to simplify the product and bring awareness to the 529 College Savings Plan in order increase assets and enrollment.
+                <p>Develop a campaign to simplify the product and bring awareness to the 529 College Savings Plan in order to increase assets and enrollment.
                 </p>
               </div>
               <div className="detail-sections">
@@ -225,7 +225,7 @@ class Work extends Component {
               </div>
               <div className="detail-sections">
                 <p className="subtitles">success</p>
-                <p>The hotel increased overnight stays, new-guest reservations, F+B, and “staycations” while enabling a peak in room rates.
+                <p>The hotel increased overnight stays, new-guest reservations, F&amp;B, and “staycations” while enabling a peak in room rates.
                 </p>
               </div>
             </div>

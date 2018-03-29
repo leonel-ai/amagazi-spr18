@@ -61,6 +61,7 @@ class Services extends Component {
 						<div className="srv-areas-desk">
 							<h1 className="srv-title">areas we ignite</h1>
 								<ul>
+									<li>film + video production</li>
 									<li>branding + corporate identity</li>
 									<li>media planning + digital strategy</li>
 									<li>consumer experience + user journey</li>

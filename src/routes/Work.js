@@ -32,6 +32,30 @@ class Work extends Component {
         </Helmet>
         <GA onload={ this.onGALoad } />
 
+
+      <div className="work-candy-desk">
+        <h1 className="work-title">eye candy</h1>
+        {/* <h2 className="subtitles">innovation meets impact</h2>
+          <p>
+          This digital rebrand broke the mold within the construction category through
+          non-traditional, bold, and contemporary web design. Our team also revamped Gutier’s
+          brand messaging to emphasize notable projects, safety, and expertise establishing
+          the company as a key player in their industry.
+          </p> */}
+      </div>
+
+      <div className="work-candy-videos">
+        <div className="work-vid1">
+          <iframe src="https://www.youtube.com/embed/ox8rVBvlRD8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
+				</div>
+      	<div className="work-vid2">
+          <iframe src="https://www.youtube.com/embed/tQqpr5q_BK4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
+				</div>
+        <div className="work-vid3">
+          <iframe src="https://www.youtube.com/embed/zlTwDTgQuh0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
+				</div>
+      </div>
+
       <div className="work-recent-desk">
         <h1 className="work-title">latest projects</h1>
         <h2 className="subtitles">innovation meets impact</h2>
@@ -67,6 +91,71 @@ class Work extends Component {
     <div className="cases">
       <h1 className="work-title">for the record</h1>
       <ul>
+      <li className="case-button">
+          <Collapsible trigger="cpg">
+            <div className='details'>
+            <div className="detail-sections">
+                <p className="work-title">snacktime bonding</p>
+                <p className="subtitles">opportunity</p>
+                <p>Gain market share in the growing snack category and create an ownable
+                  and entertaining solution to reposition snacktime as a fun, cross-generational family activity.
+                </p>
+              </div>
+              <div className="detail-sections">
+                <p className="subtitles">strategy</p>
+                <ul>
+                  <li>&#10003; Reworked the traditional product package graphics and typography to evolve
+                    the brand’s personality, expand the audience, and help create a distinct snacktime experience.</li>
+                </ul>
+              </div>
+              <div className="detail-sections">
+                <p className="subtitles">success</p>
+                <p>Positioned the brand’s core values of fun, taste, family, and excitement which rejuvenated shopper
+                  perception of the brand’s rich and iconic heritage. Our team utilized this concept for the rebrand
+                  of product line extensions in the same fashion.
+                </p>
+
+                <p className="work-title">staycation of smiles</p>
+                <p className="subtitles">opportunity</p>
+                <p>Create a family-friendly and memorable way to drive product sales within the Hispanic market.
+                </p>
+              </div>
+              <div className="detail-sections">
+                <p className="subtitles">strategy</p>
+                <ul>
+                  <li>&#10003; Partnered with Walmart to create an activity and product-pairing guide for family staycations.</li>
+                  <li>&#10003; Beyond in-store sampling, shoppers received activity ideas and product suggestions (i.e. games, movies, etc.) for the family to enjoy together.</li>
+                  <li>&#10003; Partnered with Walmart to create an activity and product-pairing guide for family staycations.</li>
+                </ul>
+              </div>
+              <div className="detail-sections">
+                <p className="subtitles">success</p>
+                <p>The event resulted in a 471% sales lift the day of the in-store demo, which significantly impacted both brand
+                  sales and retailer’s general sales. The brand effectively reached and connected with Hispanic moms for the first
+                  time at a major retail level.
+                </p>
+
+                 <p className="work-title">craveable satisfaction</p>
+                <p className="subtitles">opportunity</p>
+                <p>Develop and grow brand awareness for a product line launch at a major retailer.
+                </p>
+              </div>
+              <div className="detail-sections">
+                <p className="subtitles">strategy</p>
+                <ul>
+                  <li>&#10003; Created a 360-degree digital engagement platform based on the overarching concept:
+                    <i> As craveable and satisfying as a restaurant meal.</i></li>
+                </ul>
+              </div>
+              <div className="detail-sections">
+                <p className="subtitles">success</p>
+                <p>Secured first-time competitive brand placement in robust soup, sauces, sides category
+                  at major retail level, which increased shoppers’ selection for restaurant-quality dinnertime.
+                </p>
+              </div>
+            </div>
+          </Collapsible>
+        </li>
       <li className="case-button">
           <Collapsible trigger="construction">
             <div className='details'>
@@ -256,7 +345,6 @@ class Work extends Component {
               <li>Pepperidge Farm</li>
               <li>General Mills</li>
               <li>Houston Rising</li>
-              <li>OppenheimerFunds</li>
               <li>Fully Raw</li>
               <li>Louisiana Economic Development</li>
               <li>Green Seed Vegan</li>
@@ -266,7 +354,6 @@ class Work extends Component {
             <ul className="work-list">
               <li>Kraft</li>
               <li>Maxwell House</li>
-              <li>Blue Cross Blue Shield</li>
               <li>Gutier Roofing</li>
               <li>Johnsen Law</li>
               <li>Markowitz Law</li>
@@ -280,7 +367,6 @@ class Work extends Component {
           </div>
           <div className="brand">
             <ul className="work-list">
-              <li>Hard Rock Hotel + Casino</li>
               <li>Reliant Energy</li>
               <li>Rich's Foods</li>
               <li>Sonic</li>

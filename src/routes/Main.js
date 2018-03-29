@@ -55,6 +55,7 @@ class Routes extends Component {
 
 				<Switch>
 					<Redirect from='/phone/' to='/'/>
+					<Route path='/schedule-call' component={() => window.location = 'https://www.cfgdrbd.us/amagazi'}/>
 					<Route exact path="/" render={(props) => <Home {...props} />} />
 					<Route exact path="/about" render={(props) => <About {...props} />} />
 					<Route exact path="/services" render={(props) => <Services {...props} />} />

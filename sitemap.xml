@@ -12,9 +12,6 @@
        <image:loc>http://amagazi.com/static/media/home-mobile.b0450561.gif</image:loc>
        <image:caption>amagazi mobile homepage</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>http://amagazi.com/about</loc>
     <image:image>
        <image:loc>http://amagazi.com/static/media/lobby.9dbbe627.jpg</image:loc>
        <image:caption>amagazi office lobby desktop</image:caption>
@@ -63,9 +60,6 @@
        <image:loc>http://amagazi.com/static/media/kristian.5067820e.png</image:loc>
        <image:caption>amagazi team</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>http://amagazi.com/services</loc>
     <video:video>
       <video:content_loc>
         https://www.youtube.com/watch?v=zlTwDTgQuh0
@@ -81,9 +75,6 @@
         amagazi show reel
       </video:description>
     </video:video>
-  </url>
-  <url>
-    <loc>http://amagazi.com/work</loc>
     <image:image>
        <image:loc>http://amagazi.com/static/media/gutier.d9dbf1fb.gif</image:loc>
        <image:caption>amagazi latest project</image:caption>

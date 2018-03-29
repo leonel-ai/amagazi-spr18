@@ -20,7 +20,7 @@ class Footer extends Component {
                     <h3>contact us</h3>
                     <p>7155 old katy road, ste. s255<br/>
                        houston, tx 77024<br/>
-                       <a href="tel:+8323045500">832.304.5500</a><br/>
+                       <a href="tel:832-304-5500">832.304.5500</a><br/>
                        <a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">hello@amagazi.com</a>
                     </p>
                 </div>

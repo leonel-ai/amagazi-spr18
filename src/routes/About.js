@@ -126,12 +126,12 @@ render() {
 		fails to capture the human connection with his unique storytelling approach.</h4>
 	</Card>
 
-	<Card title="exec. vice president">
+	{/* <Card title="exec. vice president">
 		<h4 className="bio"><span className="bio-name">Tiffany Hobson</span><br/><br/>Tiffany is a seasoned international player in the business and advertising
 		world. She knows how to simplify and take on complex business problems while turning them
 		into pure gold. She has developed proven business performance strategies throughout her
 		career and has an intrinsic flexibility with all things tech.</h4>
-	</Card>
+	</Card> */}
 
 	<Card title="sr. copywriter">
 		<h4 className="bio"><span className="bio-name">Sha&iacute;na Huntsberry</span><br/><br/>Sha&iacute;na writes stories you want to share and headlines you want to embody.

@@ -240,27 +240,7 @@ class Work extends Component {
           <Collapsible trigger="financial">
             <div className='details'>
             <div className="detail-sections">
-              <p className="work-title">a future worth saving</p>
-
-                <p className="subtitles">opportunity</p>
-                <p>Develop a campaign to simplify the product and bring awareness to the 529 College Savings Plan in order to increase assets and enrollment.
-                </p>
-              </div>
-              <div className="detail-sections">
-                <p className="subtitles">strategy</p>
-                <ul>
-                  <li>&#10003; Activated a measurable CRM program to maximize return</li>
-                  <li>&#10003; Observed common client behaviors that influence account opens and benefits</li>
-                  <li>&#10003; Targeted digital outreach to benefit and grow interest in the program</li>
-                  <li>&#10003; Actively engaged existing account owners to ensure an increase in account assets</li>
-                </ul>
-              </div>
-              <div className="detail-sections">
-                <p className="subtitles">success</p>
-                <p>Consecutively increased account assets and account opens over every quarter within designated markets
-                  (TX, NM, NV, IL). The campaign also exceeded the organization’s goals within the financial plan which
-                  led to an extension of government contract renewal.
-                </p>
+              <p className="work-title">coming soon</p>
               </div>
             </div>
           </Collapsible>
@@ -269,25 +249,7 @@ class Work extends Component {
           <Collapsible trigger="healthcare">
             <div className='details'>
             <div className="detail-sections">
-              <p className="work-title">to health + success</p>
-
-                <p className="subtitles">opportunity</p>
-                <p>Outsmart the competition — don’t outspend them.
-                </p>
-              </div>
-              <div className="detail-sections">
-                <p className="subtitles">strategy</p>
-                <ul>
-                  <li>&#10003; Created B2B and B2C campaigns to influence insurance brokers and individual clients</li>
-                  <li>&#10003; Established the client as the Health Provider of choice in both campaign categories </li>
-                  <li>&#10003; Simplified brand messaging in a chaotic, competitive market enabling them to successfully stand alone in the healthcare landscape</li>
-                </ul>
-              </div>
-              <div className="detail-sections">
-                <p className="subtitles">success</p>
-                <p>Increased membership and positive brand perception against their competitors’ robust marketing budgets.
-                  The campaign over-indexed in all categories and became an industry leader.
-                </p>
+              <p className="work-title">coming soon</p>
               </div>
             </div>
           </Collapsible>
@@ -296,26 +258,7 @@ class Work extends Component {
           <Collapsible trigger="hospitality">
             <div className='details'>
             <div className="detail-sections">
-              <p className="work-title">the perfect stay</p>
-
-                <p className="subtitles">opportunity</p>
-                <p>Grow brand loyalty, increase repeat overnight stays, and first-time guest reservations throughout the year to promote the hotel guest experience.
-                </p>
-              </div>
-              <div className="detail-sections">
-                <p className="subtitles">strategy</p>
-                <ul>
-                  <li>&#10003; Implemented marketing campaign to engage existing guests and grow market</li>
-                  <li>&#10003; Leveraged engagement before and during guest stay through brand ambassadors and influencers</li>
-                  <li>&#10003; Online travel forums and guest reviews to promote guest experiences</li>
-                  <li>&#10003; Targeted digital placement and rich media plan</li>
-                  <li>&#10003; Customized hotel packages based on guest-behavior data</li>
-                </ul>
-              </div>
-              <div className="detail-sections">
-                <p className="subtitles">success</p>
-                <p>The hotel increased overnight stays, new-guest reservations, F&amp;B, and “staycations” while enabling a peak in room rates.
-                </p>
+              <p className="work-title">coming soon</p>
               </div>
             </div>
           </Collapsible>

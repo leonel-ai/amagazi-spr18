@@ -46,12 +46,9 @@ class Work extends Component {
 
       <div className="work-candy-videos">
         <div className="work-vid1">
-          <iframe src="https://www.youtube.com/embed/Kwk_OvBa2rA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
+          <iframe src="https://www.youtube.com/embed/uuyy212-HQQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
 				</div>
-      	<div className="work-vid2">
-          <iframe src="https://www.youtube.com/embed/tQqpr5q_BK4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
-				</div>
-        <div className="work-vid3">
+        <div className="work-vid2">
           <iframe src="https://www.youtube.com/embed/zlTwDTgQuh0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen title="show-deck"></iframe>
 				</div>
       </div>
